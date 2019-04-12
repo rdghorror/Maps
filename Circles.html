@@ -1,0 +1,1006 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+	<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" >
+		<title>Bill Chadwick's Google Maps Demos</title>
+		<style type="text/css">
+v\:* { BEHAVIOR: url(#default#VML) }
+</style>
+		<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAf1jpxeaS99N62EygynWFOhRURkg4jQUFiZ83F_0Q5U4SrcYk8RSZQpovkzW_zBsHZpoyjdzV6xCU-Q"
+			type="text/javascript"></script>
+		<script src="LatLngToOSGB.js" type="text/javascript"></script>
+		<script src="LatLonGraticule.js" type="text/javascript"></script>
+		<script src="OGBGraticule.js" type="text/javascript"></script>
+		<script src="BdccRangeRings.js" type="text/javascript"></script>
+		<script src="OffsetableMarker.js" type="text/javascript"></script>
+		<script src="BDCCBlock.js" type="text/javascript"></script>
+		<script src="Rainbow.js" type="text/javascript"></script>
+		<script src="BDCCArrow.js" type="text/javascript"></script>
+		<script src="BDCCCircle.js" type="text/javascript"></script>
+		<script src="BDCCPolyline.js" type="text/javascript"></script>
+		<script src="BDCCPolygon.js" type="text/javascript"></script>
+		<script src="BdccGeo.js" type="text/javascript"></script>
+		<script type="text/javascript">
+    //<![CDATA[
+
+var mapPoly;
+var mapCircles;
+var mapArrows;
+var mapBlocks;
+var mapOffset;
+var mapGrat;
+var mapRoute;
+
+var _mSvgForced = true; 
+var _mSvgEnabled = true;
+
+function newMap(div) {		
+	if (GBrowserIsCompatible()){
+		var map = new GMap2(document.getElementById(div));
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		map.addControl(new GScaleControl());
+		map.setCenter(new GLatLng(51.425, -0.955), 14);				
+		map.enableContinuousZoom();
+		map.enableDoubleClickZoom();
+		return map;
+	}
+}
+
+var poly;
+var poly2;
+var poly3;
+
+var polyg;
+var polyg2;
+var polyg3;
+
+function polyMap(div){
+
+        mapPoly = newMap('mapPoly');
+
+        var pts = new Array();
+
+		pts.push (new GLatLng(51.42, -0.97));
+		pts.push (new GLatLng(51.42, -0.96));
+		pts.push (new GLatLng(51.43, -0.96));
+
+        poly = new BDCCPolyline(pts,"#FF0000",3,0.3,"line1","dash");
+        mapPoly.addOverlay(poly);
+ 
+        var pts2 = new Array();
+		pts2.push (new GLatLng(51.425, -0.975));
+		pts2.push (new GLatLng(51.425, -0.965));
+		pts2.push (new GLatLng(51.435, -0.965));
+
+        poly2 = new BDCCPolyline(pts2,"#00FF00",5,0.9,"line2","dot");
+        mapPoly.addOverlay(poly2);
+
+        var pts3 = new Array();
+		pts3.push (new GLatLng(51.415, -0.965));
+		pts3.push (new GLatLng(51.415, -0.955));
+		pts3.push (new GLatLng(51.425, -0.955));
+
+        poly3 = new BDCCPolyline(pts3,"#00007F",5,0.5,"line 3");        
+        mapPoly.addOverlay(poly3);
+        
+        GEvent.addListener(poly,"click",function(){alert(poly.tooltip);});
+        GEvent.addListener(poly,"mouseover",function(){poly.setOpacity(0.8);});
+        GEvent.addListener(poly,"mouseout",function(){poly.setOpacity(0.3);});
+
+        GEvent.addListener(poly2,"click",function(){alert(poly2.tooltip);});
+        GEvent.addListener(poly2,"mouseover",function(){poly2.setColor("#0000FF");});
+        GEvent.addListener(poly2,"mouseout",function(){poly2.setColor("#00FF00");});
+
+        GEvent.addListener(poly3,"click",function(){alert(poly3.tooltip);});
+        GEvent.addListener(poly3,"mouseover",function(){poly3.setWeight(9);});
+        GEvent.addListener(poly3,"mouseout",function(){poly3.setWeight(5);});
+        
+        var ptsg = new Array(); 
+        ptsg.push (new GLatLng(51.42, -0.95));
+		ptsg.push (new GLatLng(51.42, -0.94));
+		ptsg.push (new GLatLng(51.43, -0.94));
+		ptsg.push (new GLatLng(51.42, -0.95));
+
+        polyg = new BDCCPolygon(ptsg,"#FF0000",3,0.3,"#00FF00",0.2,"polygon 1","dash");
+        mapPoly.addOverlay(polyg);
+ 
+        var ptsg2 = new Array();
+		ptsg2.push (new GLatLng(51.425, -0.955));
+		ptsg2.push (new GLatLng(51.425, -0.945));
+		ptsg2.push (new GLatLng(51.435, -0.945));
+		ptsg2.push (new GLatLng(51.425, -0.955));
+
+        polyg2 = new BDCCPolygon(ptsg2,"#00FF00",5,0.9,"#0000FF",0.3,"polygon 2","dot");
+        mapPoly.addOverlay(polyg2);
+
+        var ptsg3 = new Array();
+		ptsg3.push (new GLatLng(51.415, -0.945));
+		ptsg3.push (new GLatLng(51.415, -0.935));
+		ptsg3.push (new GLatLng(51.425, -0.935));
+		ptsg3.push (new GLatLng(51.415, -0.945));
+
+        polyg3 = new BDCCPolygon(ptsg3,"#00007F",5,0.9,"#7F0000",0.3,"polygon 3");
+        mapPoly.addOverlay(polyg3);
+        
+        GEvent.addListener(polyg,"click",function(){alert(polyg.tooltip);});
+        GEvent.addListener(polyg,"mouseover",function(){polyg.setFillOpacity(0.8);});
+        GEvent.addListener(polyg,"mouseout",function(){polyg.setFillOpacity(0.3);});
+
+        GEvent.addListener(polyg2,"click",function(){alert(polyg2.tooltip);});
+        GEvent.addListener(polyg2,"mouseover",function(){polyg2.setFillColor("#00FFFF");});
+        GEvent.addListener(polyg2,"mouseout",function(){polyg2.setFillColor("#0000FF");});
+
+        GEvent.addListener(polyg3,"click",function(){alert(polyg3.tooltip);});
+        GEvent.addListener(polyg3,"mouseover",function(){polyg3.setStrokeDash("dot");});
+        GEvent.addListener(polyg3,"mouseout",function(){polyg3.setStrokeDash("solid");});
+        
+        
+
+
+}
+
+var red = 20;
+var green = 240;
+var aMkr1;
+
+function circleMap(div){
+
+	if (GBrowserIsCompatible()){
+
+		mapCircles = new GMap2(document.getElementById('mapCircles'));
+		mapCircles.addControl(new GSmallMapControl());
+		mapCircles.addControl(new MapTypeControl());//custom map and graticule selector
+		mapCircles.addControl(new GScaleControl());
+		mapCircles.enableContinuousZoom();
+		mapCircles.enableDoubleClickZoom();
+
+        var ogbLL = NEtoLL(469000,169000);
+        var pc = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		mapCircles.setCenter(new GLatLng(pc.lat,pc.lon), 13);			
+
+        ogbLL = NEtoLL(470000,170000);
+        var p1 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		aMkr1 = new BDCCCircle(new GLatLng(p1.lat,p1.lon), 1.0,"#FF0000",3,0.7,true,"#00FF00",0.3,"1Km Circle - mouseover changes stroke color");
+		mapCircles.addOverlay(aMkr1);
+
+        ogbLL = NEtoLL(467500,169500);
+        var p2 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		var aMkr2 = new BDCCCircle(new GLatLng(p2.lat,p2.lon), 0.2,"#0000FF",5,0.3,false,"#FFFF00",0.7,"200m Circle - mouseover turns fill on/off");
+		mapCircles.addOverlay(aMkr2);
+
+        ogbLL = NEtoLL(468500,167500);
+        var p3 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		var aMkr3 = new BDCCCircle(new GLatLng(p3.lat,p3.lon), 0.5,"#00FF00",5,0.3,false,"#FFFF00",0.5,"0.5Km Circle for unfilled click testing");
+		mapCircles.addOverlay(aMkr3);
+
+        ogbLL = NEtoLL(400000,300000);
+        var p4 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+
+		var aMkr4 = new BDCCCircle(new GLatLng(p4.lat,p4.lon), 100.0,"#00FF00",3,0.5,false,"#00FFFF",0.5,"100Km Circle");
+		mapCircles.addOverlay(aMkr4);
+
+		GEvent.addListener(aMkr3,"click",function(){alert("Unfilled circle only clicks on its line");});
+		GEvent.addListener(aMkr2,"click",function(){alert("Filled circle clicks anywhere");});
+		GEvent.addListener(aMkr1,"mouseover",function(){aMkr1.setStrokeColor("#00FF00");aMkr1.setFillOpacity(0.5)});
+		GEvent.addListener(aMkr1,"mouseout",function(){aMkr1.setStrokeColor("#FF0000");aMkr1.setFillOpacity(0.3)});
+		GEvent.addListener(aMkr2,"mouseover",function(){aMkr2.setFill(true);});
+		GEvent.addListener(aMkr2,"mouseout",function(){aMkr2.setFill(false);});
+
+        ogbLL = NEtoLL(472000,170000);
+        var p1 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		aMkr5 = new BDCCCircle(new GLatLng(p1.lat,p1.lon), 1.0,"#0000FF",3,0.3,true,new Array("#FF0000","#00FF00"),0.6,"1Km Circle - gradient colour ramp");
+		mapCircles.addOverlay(aMkr5);
+		GEvent.addListener(aMkr5,"mouseover",function(){aMkr5.setFillColor(new Array("#00FF00","#FF0000"));});
+		GEvent.addListener(aMkr5,"mouseout",function(){aMkr5.setFillColor(new Array("#FF0000","#00FF00"));});
+
+        ogbLL = NEtoLL(472000,169000);
+        var p1 = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+		aMkr6 = new BDCCCircle(new GLatLng(p1.lat,p1.lon), 1.0,"#0000FF",3,0.1,true,"#FF0000",new Array(0.01,1.0),"1Km Circle - gradient opacity ramp");
+		mapCircles.addOverlay(aMkr6);
+		GEvent.addListener(aMkr6,"mouseover",function(){aMkr6.setFillOpacity(new Array(1.0,0.01));});
+		GEvent.addListener(aMkr6,"mouseout",function(){aMkr6.setFillOpacity(new Array(0.01,1.0));});
+
+
+	}
+
+}
+
+function arrowMap(div){
+
+ mapArrows = newMap('mapArrows');
+
+ var a1 = new BDCCArrow(new GLatLng(51.42, -0.95),90,"#FF0000",0.5,"East");
+ var a2 = new BDCCArrow(new GLatLng(51.42, -0.94),180,"#00FF00",0.7,"South");
+ var a3 = new BDCCArrow(new GLatLng(51.43, -0.94),270,"#0000FF",0.3,"West");
+ var a4 = new BDCCArrow(new GLatLng(51.43, -0.95),0,"#7F007F",0.9,"North");
+ 
+ mapArrows.addOverlay(a1);
+ mapArrows.addOverlay(a2);
+ mapArrows.addOverlay(a3);
+ mapArrows.addOverlay(a4);
+ 
+ GEvent.addListener(a1,"click",function(){alert(a1.getTooltip());});
+ GEvent.addListener(a2,"click",function(){alert(a2.getTooltip());});
+ GEvent.addListener(a3,"click",function(){alert(a3.getTooltip());});
+ GEvent.addListener(a4,"click",function(){alert(a4.getTooltip());});
+ 
+
+}
+
+function blockMap(div){
+
+    mapBlocks = newMap('mapBlocks');
+
+	mapBlocks.setCenter(new GLatLng(51.5, -1.0), 10);			
+    var d = 0.0;
+    for(var i=380; i< 645; i++){
+        mapBlocks.addOverlay(new BdccBlock(new GLatLng(51.437+d,-0.97+d),NanometerToRGB(i,1.0),i));
+        d+= 0.001;
+    }
+
+}
+
+function offsetMap(div){
+
+mapOffset = newMap('mapOffset');
+mapOffset.disableDoubleClickZoom();
+mapOffset.disableContinuousZoom();
+
+mapOffset.addOverlay(new OffsetableMarker(mapOffset.getCenter(),{},null,null,null,50,50));
+mapOffset.addOverlay(new OffsetableMarker(mapOffset.getCenter(),{},null,null,null,50,-50));
+
+
+GEvent.addListener(mapOffset,"click",function(overlay,point){
+    if(overlay == null)
+        mapOffset.addOverlay(new OffsetableMarker(point));
+    });
+
+
+}
+
+var mtUnique;
+
+function MapTypeControl() {
+
+    this.osGrat = null;
+    this.llGrat = null;
+    this.rings = null;
+    if (mtUnique == null)
+        mtUnique = 0;
+    else
+        mtUnique += 1;
+    this.unique = mtUnique.toString();
+
+}
+MapTypeControl.prototype = new GControl();
+
+MapTypeControl.prototype.initialize = function(map) {
+
+      var container = document.createElement("div");
+      container.style.fontFamily='Arial';
+      container.style.fontSize='x-small';
+
+      var cboMap = document.createElement("SELECT");
+      cboMap.id = "cboMap" + this.unique;
+      var mts = map.getMapTypes();
+      for(var i=0;i < mts.length; i++)
+	  {
+		    var o = document.createElement("OPTION");
+		    o.text=mts[i].getName();
+		    o.value=i;
+		    cboMap.options.add(o); 
+	  }
+	  cboMap.selectedIndex = 0;
+      cboMap.title ="Select the background map type";
+      container.appendChild(cboMap);
+
+      var unique = this.unique;
+      
+      GEvent.addDomListener(cboMap, "change", function() {
+  
+        var sel = document.getElementById("cboMap" + unique); 
+        var mt1 = map.getMapTypes()[sel.options[sel.selectedIndex].value];
+        map.setMapType(mt1);
+
+      });
+
+      var cboGrid = document.createElement("SELECT");
+      cboGrid.id = "cboGrid" + this.unique;
+      var o = document.createElement("OPTION");
+      o.text="No Grid/Rings";
+      o.value=0;
+      cboGrid.options.add(o); 
+      var o = document.createElement("OPTION");
+      o.text="Lat Lon Decimal";
+      o.value=1;
+      cboGrid.options.add(o); 
+      var o = document.createElement("OPTION");
+      o.text="Lat Lon DMS";
+      o.value=2;
+      cboGrid.options.add(o); 
+      var o = document.createElement("OPTION");
+      o.text="UK OS";
+      o.value=3;
+      cboGrid.options.add(o); 
+      var o = document.createElement("OPTION");
+      o.text="UK OS + Lat Lon Decimal";
+      o.value=4;
+      cboGrid.selectedIndex = 0;
+      cboGrid.options.add(o); 
+
+      var o = document.createElement("OPTION");
+      o.text="Auto Rings";
+      o.value=5;
+      cboGrid.selectedIndex = 0;
+      cboGrid.options.add(o); 
+
+      var o = document.createElement("OPTION");
+      o.text="Fixed Rings";
+      o.value=6;
+      cboGrid.selectedIndex = 0;
+      cboGrid.options.add(o); 
+
+      var o = document.createElement("OPTION");
+      o.text="Labeled Rings";
+      o.value=7;
+      cboGrid.selectedIndex = 0;
+      cboGrid.options.add(o); 
+
+      var o = document.createElement("OPTION");
+      o.text="Auto Rings + UK OS Grid";
+      o.value=8;
+      cboGrid.selectedIndex = 0;
+      cboGrid.options.add(o); 
+
+      cboGrid.title ="Select a grid or rings for the map";
+      container.appendChild(cboGrid);  
+
+      var llGrat = this.llGrat;
+      var osGrat = this.osGrat;
+      var rings = this.rings;
+
+      GEvent.addDomListener(cboGrid, "change", function() {
+               
+        if(llGrat)
+			map.removeOverlay(llGrat);
+        if(osGrat)
+			map.removeOverlay(osGrat);
+        if(rings)
+			map.removeOverlay(rings);
+				
+		var cboGrid = document.getElementById('cboGrid'+unique);
+		  
+		if (cboGrid.options[cboGrid.selectedIndex].value == 1){
+			llGrat = new LatLonGraticule();
+			map.addOverlay(llGrat);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 2){
+			llGrat = new LatLonGraticule(true);
+			map.addOverlay(llGrat);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 3){
+			osGrat = new OGBGraticule();
+			map.addOverlay(osGrat);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 4){
+			llGrat = new LatLonGraticule(true);
+			map.addOverlay(llGrat);
+			osGrat = new OGBGraticule();
+			map.addOverlay(osGrat);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 5){
+			rings = new BdccRangeRings((gLatLngFromEN(400000,400000)), "#0000FF",3,0.5,null,17);
+            	mapGrat.addOverlay(rings);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 6){
+			rings = new BdccRangeRings((gLatLngFromEN(400000,400000)), "#0000FF",2,0.9,1000,5);
+            	mapGrat.addOverlay(rings);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 7){
+			var d = new Array();
+			d.push(500);//metres
+			d.push(1000);
+			d.push(2000);
+			var l = new Array();
+			l.push("5&nbsp;mins");
+			l.push("10&nbsp;mins");
+			l.push("Too&nbsp;far");
+			var c = new Array();
+			c.push("#00FF00");
+			c.push("#7F7F00");
+			c.push("#FF0000");
+			rings = new BdccRangeRings((gLatLngFromEN(400000,400000)), c,4,0.5,d,null,l);
+            	mapGrat.addOverlay(rings);
+			}
+		else if (cboGrid.options[cboGrid.selectedIndex].value == 8){
+			rings = new BdccRangeRings((gLatLngFromEN(400000,400000)), "#0000FF",3,0.5);
+            	mapGrat.addOverlay(rings);
+			osGrat = new OGBGraticule();
+			map.addOverlay(osGrat);
+			}
+		else{
+			llGrat = null;
+			osGrat = null;
+			}
+
+      });
+
+
+      map.getContainer().appendChild(container);
+
+      return container;
+
+}
+
+
+var gbRect = new GLatLngBounds(new GLatLng(49,-7),new GLatLng(61,2));
+
+function fixedLlString(la,lo)
+{
+	
+	var s = "N";
+	var w = "E";
+	if (la < 0){
+		la = -la;
+		s = "S";
+		}
+	if(lo < 0){
+		lo = -lo;
+		w = "W";
+	}
+		
+	var lai = Math.floor(la);
+	var laf = Math.round((la-lai)*1000000);
+	var lais = lai.toString();
+	while(lais.length < 2)
+		lais = "0" + lais;
+	var lafs = laf.toString();
+	while(lafs.length < 6)
+		lafs = "0" + lafs;
+
+	var loi = Math.floor(lo);
+	var lof = Math.round((lo-loi)*1000000);
+	var lois = loi.toString();
+	while(lois.length < 3)
+		lois = "0" + lois;
+	var lofs = lof.toString();
+	while(lofs.length < 6)
+		lofs = "0" + lofs;
+
+	return lais + "." + lafs + s + ", " + lois + "." + lofs + w;
+}
+
+// By default, the control will appear in the top left corner of the
+// map with 7 pixels of padding.
+MapTypeControl.prototype.getDefaultPosition = function() {
+  return new GControlPosition(G_ANCHOR_TOP_RIGHT, new GSize(7, 7));
+}
+
+function MapCursorControl() {
+}
+MapCursorControl.prototype = new GControl();
+
+MapCursorControl.prototype.initialize = function(map) {
+
+      var container = document.createElement("div");
+      container.style.fontFamily='Arial';
+      container.style.fontSize='XX-Small';
+
+      var ptr = document.createElement("INPUT");
+      ptr.style.width = "500px";
+      ptr.type = "Text";
+      ptr.readOnly = true;
+      ptr.id = "txtPtr";
+      container.appendChild(ptr);
+      
+      GEvent.addListener(map, "mousemove", function(point) {
+    		
+    		var ws; 
+			if (gbRect.contains(point)){
+				var oll = WGS84ToOGB(point.lat(),point.lng(),0);
+				ws = fixedLlString(oll.lat,oll.lon) + " (OGB)  "; //6fig toString
+				var ne = LLtoNE(oll.lat,oll.lon);
+				ws += "E,N=" + ne.east + "m, " +ne.north + "m  ";	
+				ws += NE2NGR(ne.east,ne.north);
+			}
+			else 
+				ws = fixedLlString(point.lat(),point.lng()) + " (WGS84)  "; //6fig toString
+
+		var ptr = document.getElementById('txtPtr');
+		ptr.value = ws;
+
+
+      });
+
+      map.getContainer().appendChild(container);
+      return container;
+
+}
+
+MapCursorControl.prototype.getDefaultPosition = function() {
+  return new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(7, 20));
+}
+
+
+
+function gratMap(){
+
+	if (GBrowserIsCompatible()){
+
+		mapGrat = new GMap2(document.getElementById('mapGrat'));
+		mapGrat.addControl(new GLargeMapControl());
+		var mtc = new MapTypeControl();
+		mapGrat.addControl(mtc);//custom map and graticule selector
+		mapGrat.addControl(new MapCursorControl());//custom map and graticule selector
+		mapGrat.addControl(new GScaleControl());
+		mapGrat.setCenter(new gLatLngFromEN(400000,400000), 13);				
+		mapGrat.enableContinuousZoom();
+		mapGrat.enableDoubleClickZoom();
+
+
+		// test cases bearings include convergence  
+
+		var p1 = gLatLngFromEN(470000,170000);
+            var p2 = gLatLngFromEN(570000,270000); 
+            var p3 = gLatLngFromEN(570000,70000); 
+            var p4 = gLatLngFromEN(370000,70000); 
+            var p5 = gLatLngFromEN(370000,270000); 
+            var p6 = gLatLngFromEN(480000,180000); 
+
+		var pd = bdccGeoPointAtRangeAndBearing(p1,141421,45.794481600);
+            //alert(pd.distanceFrom(p2));
+
+		pd = bdccGeoPointAtRangeAndBearing(p1,141421,135.779935123);
+            //alert(pd.distanceFrom(p3));
+
+		pd = bdccGeoPointAtRangeAndBearing(p1,141421,225.784628016);
+            //alert(pd.distanceFrom(p4));
+
+		pd = bdccGeoPointAtRangeAndBearing(p1,141421,315.789789669);
+            //alert(pd.distanceFrom(p5)); 
+
+		pd = bdccGeoPointAtRangeAndBearing(p1,14142,45.787725267);
+            //alert(pd.distanceFrom(p6)); 
+
+		
+
+
+	}
+}
+
+function gLatLngFromEN (e,n)
+{
+	var ogbLL = NEtoLL(e,n);
+    var pc = OGBToWGS84(ogbLL.lat, ogbLL.lon,0);
+    return new GLatLng(pc.lat,pc.lon); 
+}
+
+
+
+function MapDistanceControl() {
+}
+MapDistanceControl.prototype = new GControl();
+
+MapDistanceControl.prototype.initialize = function(map) {
+
+      var container = document.createElement("div");
+      container.style.fontFamily='Arial';
+      container.style.fontSize='XX-Small';
+
+      var ptr = document.createElement("INPUT");
+      ptr.style.width = "100px";
+      ptr.type = "Text";
+      ptr.readOnly = true;
+      ptr.id = "distPtr";
+      container.appendChild(ptr);
+      
+      map.getContainer().appendChild(container);
+      return container;
+
+}
+
+MapDistanceControl.prototype.getDefaultPosition = function() {
+  return new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(7, 20));
+}
+
+var rtPoints;
+
+function routeMap(){
+
+	if (GBrowserIsCompatible()){
+
+	    mapRoute = new GMap2(document.getElementById('mapRoute'),{draggableCursor: 'crosshair', draggingCursor: 'pointer'}); 
+	    mapRoute.addControl(new GSmallMapControl());
+	    mapRoute.addControl(new GScaleControl());
+	    mapRoute.enableContinuousZoom();
+	    mapRoute.enableDoubleClickZoom();		
+	    mapRoute.setCenter(gLatLngFromEN(469000,169000), 13);		
+			
+	    var rtPoints = new Array();
+	    rtPoints.push (gLatLngFromEN(468000,168000));
+	    rtPoints.push (gLatLngFromEN(468000,170000));
+	    rtPoints.push (gLatLngFromEN(470000,170000));
+	    rtPoints.push (gLatLngFromEN(470000,168000));
+	    var rtPoly = new GPolyline(rtPoints,"#0000FF",3);
+	    mapRoute.addOverlay(rtPoly);
+		mapRoute.addControl(new MapDistanceControl());
+    	  
+
+	  	GEvent.addListener(mapRoute, 'mousemove', function(point){
+			 document.getElementById('distPtr').value = Math.round(bdccGeoDistanceToPolyMtrs(rtPoly,point));
+	    });
+
+	}
+}
+
+function makeMaps(){
+
+circleMap();
+arrowMap();
+blockMap();
+offsetMap();
+gratMap();
+routeMap();
+polyMap();
+
+}
+
+    //]]>
+
+		</script>
+	</head>
+	<body onload="makeMaps();" style="font-weight: bold; font-size: large; font-family: Arial; background-color: #cccc99">
+		<p>Google Maps Widgets from Bill Chadwick - * Updated Feb 2012 *
+			<br />
+			Here is a collection of links to my Demos and Scripts for use with Google Maps V2 and now V3.
+			The V2 scripts should all work with Firefox 3 and MSIE 7. Most work with Opera. Some work with Chrome.
+			The V3 scripts should work in most browsers except perhaps, Opera.
+			<br />
+			You are visitor <img src="/cgi-bin/Count.cgi?ft=9|frgb=69;139;50|tr=0|trgb=0;0;0|wxh=15;20|md=6|dd=A|st=5|sh=1|df=bdcc.dat"
+				align="absmiddle">
+			<br />
+            
+             <div id="divDonate">
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target = "_blank">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                ">
+                <input type="image" title="If you find Bdcc Gmap Bits handy you could always PayPal me a beer !" 
+                      src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" 
+                      name="submit" alt="If you find Bdcc Gmap Bits handy you could always PayPal me a beer !">
+                <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            
+            
+
+            </div>
+            
+            
+		</p>
+
+
+    <br />
+
+		<p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-2772316267487878";
+//BdccGmapBits
+google_ad_slot = "6277295773";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+		</p>
+		<br />
+
+
+		<br />
+
+		<table style="width: 100%; height: 2000px">
+			<tr>
+				<td style="width: 70%">
+					<div id="mapBlocks" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">BLOCKS
+					<br />
+					<br />
+					These are a very simple coloured block marker with a tooltip. They have no 
+					events or opacity control (but these could be added). The point of these is 
+					that for the same load time, you should be able to use more of these on a map 
+					than you can GMarkers.
+					<br />
+					<br />
+					The demo adds a few hundred blocks which will separate if you zoom in. The demo 
+					blocks are coloured with all the colours of the rainbow. Their tooltip is their 
+					wavelength in nanometers.
+					<br />
+					<br />
+					Source code for the Block Marker is <a target="_blank" href="BDCCBlock.js">here.</a>
+					Source code for converting a number between 0 and 1 into a HTML colour string 
+					between violet and red is <a target="_blank" href="Rainbow.js">here.</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%">
+					<div id="mapGrat" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small; font-family: Arial">
+					GRATICULES & RINGS * Updated 20 Jan 08 *
+					<br />
+					<br />
+					There are three basic types. A Latitude and Longitude Graticule, a UK National 
+					Grid Graticule and Range Rings.
+					<br />
+					<br />
+					Range Ring spacing is automatic, fixed or from an array. Rings are labeled every 45 degrees.
+					Accuracy is about 200m in 140km or 20m in 14km at UK latitudes.
+					<br />
+					<br />
+					The Lat/Lon graticule uses HTML divs for its lines and is quick to paint. The 
+					UK graticule and Range Rings use GPolylines and are fairly slow to paint so are 
+                              coded to only paint after map panning / zooming has finished (using the map's moveend event). 
+					<br />
+					<br />
+					Both graticules have tooltips on the labels. Google Maps uses the WGS84 datum 
+					so the labels on the lat/lon graticule reflect this. The Lat/Lon graticule can 
+					use decimal or sexagacimal (DMS) spacing according to a constructor parameter. 
+					The colour for the graticules is the Map's default text colour so will change 
+					between Map and Satellite views.
+					<br />
+					<br />
+					In this demo, the map's mousepointer position is shown as OSGB 1936 Lat Lon, 
+					UKOS Eastings and Northings (metres) and UKOS grid reference. Custom controls 
+					are used for the demo's Grid Type and Map Cursor displays.
+					<br />
+					<br />
+					Source code for the Lat/Lon Graticule is <a target="_blank" href="LatLonGraticule.js">
+						here.</a> Source code for the Lat/Lon to UK OS conversion is <a target="_blank" href="LatLngToOSGB.js">
+						here.</a> Source code for the UK OS Graticule (requires LatLngToOSGB.js) is <a target="_blank" href="OGBGraticule.js">
+						here.</a> Source code for the Range Rings is <a target="_blank" href="BdccRangeRings.js">
+						here.</a> Usage is as simple as map.addOverlay(new LatLonGraticule());
+					<br />
+					<br />
+					<b>New ! Ports of the <a target="_blank" href="uk_grat_v3_demo.htm">UK</a> and <a target="_blank" href="ll_grat_v3_demo.htm">WGS84 Lat/Lon</a> Graticules for the V3 Maps API are now available.</b>
+					<br />
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%">
+					<div id="mapArrows" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">ARROWS
+					<br />
+					<br />
+					This small simple arrow was my first VML/SVG overlay. These arrows are great 
+					for showing a track (perhaps from a GPS) or perhaps you could use them for 
+					showing wind direction. Currently the arrows are a fixed size. The code could 
+					be modified to create variable length arrows with different head sizes. The 
+					arrows have a tooltip and can be clicked on. They work in Chrome.
+					<br />
+					<br />
+					The demo just displays four arrows indicating North, East, South and West. The 
+					actual heading of the arrow is given in compass degrees.
+					<br />
+					<br />
+					Source code for the Arrow Marker is <a target="_blank" href="BDCCArrow.js">here.</a>
+					This should work in any VML or SVG enabled browser. For SVG browsers other than 
+					Firefox you may have to use include var _mSvgForced = true; and var 
+					_mSvgEnabled = true; in the begining of your map script. 
+
+					<br />
+					<b>New ! A Port of the <a target="_blank" href="arrows_v3_demo.htm">Arrow overlay</a> for the V3 Maps API is now available.</b>
+					<br />
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%">
+					<div id="mapOffset" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">
+					OFFSETABLE MARKER<br />
+					<br />
+					This uses sub-classing on GMarker to provide a marker that can be dragged from 
+					its spot but leaves a line indicating its actual reference point. The resulting 
+					offset is independant of zoom level.
+					<br />
+					<br />
+					This lets the user deal with overlapping markers in a natural way. By default, 
+					the line is drawn in the current map's default text colour but colour, weight 
+					and opacity can be supplied to the constructor.<br />
+					To add a new marker, click on the map. The marker offset is cleared with a 
+					double click.<br />
+					<br />
+					Source code for the Offsetable Marker is <a target="_blank" href="OffsetableMarker.js">
+						here.</a>
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%;">
+					<div id="mapCircles" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">SCALED CIRCLES
+					<br />
+					<br />
+					This is a scaled circle overlay using SVG/VML. Radius is give in kilometers - 
+					use the UKOS grid to check. The line (stroke) of the circle can have a selected 
+					colour, pixel width (weight) and opacity. The fill of the circle can have a 
+					selected colour and opacity.
+					<br />
+					<br />
+					The circle provides mouseover, mouseout and click events. Unfilled circles only 
+					register mouse events on their line. The stroke could be dashed using the 
+					method in the subclassed Polyline below. The demo changes colours and opacity 
+					etc. as you mouseover the circles. On Chrome, mouseout and mouseover and the tooltip do not work properly.
+					<br />
+					<br />
+					To use a colour and/or opacity gradient use an Array of 2 colours and/or 2 
+					opacities for the fillColor and fillOpacity properties. Currently Firefox 
+					struggles to paint circles with radius > 3000 pixels. This is despite all 
+					attempts and using a scale transform. For now, circles this big don't plot on 
+					Firefox.
+					<br />
+					<br />
+					Source code for the Circle Overlay is <a target="_blank" href="BDCCCircle.js">here.</a>
+					This should work in any VML or SVG enabled browser. For SVG browsers other than 
+					Firefox you may have to use include var _mSvgForced = true; and var 
+					_mSvgEnabled = true; in the begining of your map script. 
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%">
+					<div id="mapPoly" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">CLICKABLE POLYLINES & POLYGONS
+					<br />
+					<br />
+					These use a subclassing of GPolyline and GPolygon respectively. 
+					They work on MSIE and Frefox, but currently not on Opera or Chrome. 
+					The subclassing adds:
+					<br />
+					<br />
+					- Click, Mouseover and Mouseout events
+					<br />
+					- Dashed line/stroke styling
+					<br />
+					- A Tooltip or Title.
+					<br />
+					<br />
+					On Firefox (not IE), the bounding rectangle of the polyline seems to occlude 
+					earlier added polylines from receiving mouse events (despite setting the 
+					'pointer-events' attribute). You will observe this with the dashed red line in 
+					the demo. Also with Firefox the undashed parts of the stroke don't respond to 
+					the mouse. 
+					<br />
+					<br />
+					Source code (<b>updated Jul 09</b>) for the Polyline is <a target="_blank" href="BDCCPolyline.js">here</a>
+					and for the Polygon <a target="_blank" href="BDCCPolygon.js">here</a>. These 
+					should work in any VML or SVG enabled browser. For SVG browsers other than 
+					Firefox you may have to use include var _mSvgForced = true; and var 
+					_mSvgEnabled = true; in the begining of your map script. 
+				</td>
+			</tr>
+			<tr>
+				<td style="width: 70%">
+					<div id="mapRoute" style="width: 800px; height: 600px">
+					</div>
+				</td>
+				<td style="font-size: small">DISTANCE POINT TO POLYLINE OR POLYGON
+					<br />
+					<br />
+                    This uses some 3D geometry maths to work out the distance between the mousepointer's lat/lng and a 
+                    GPolyline (or border of a GPolygon). The distance in metres is displayed in a panel on the bottom right 
+                    of the map. 
+					<br />
+					<br />
+                    You can test this by panning the map so that a vertex of the polyline lies on one end of the scale bar
+                    and then moving the mousepointer to the other end of the scale bar. Also, if you zoom well in, then the                          distance should stay around 1m or less as you move the mousepointer all along the polyline. 
+                    The test polyline has horizontal and vertical sides of 2km so the furthest away you can get inside its                         square is 1000m.
+					<br />
+					<br />
+					Source code for the distance calculation is here <a target="_blank" href="BdccGeo.js">here</a>
+					<br />
+					<br />
+                    This code can be used for determining how far 'Off Route' a point is or for filtering 'Points Of Interest'
+                    for proximity to a route. I have used it with the <a target="_blank" href="http://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html">GSHHS</a> data set to find out how far it is to the sea.
+                    <br />
+                    <br />
+                    There is a similar, better demo here  <a href="http://wtp2.appspot.com/cSnapToRouteDemo.html">http://wtp2.appspot.com/cSnapToRouteDemo.html</a>
+                    <br />
+				</td>
+			</tr>
+			
+			<tr>
+				<td style="width: 70%">
+					<div id="div1" style="width: 800px; height: 20px">
+					</div>
+				</td>
+				<td style="font-size: small">PARALLEL POLYLINES
+					<br />
+					<br />
+					For a demo of how to draw parallel Polylines please see 
+					<a href="http://wtp2.appspot.com/ParallelLines.htm">http://wtp2.appspot.com/ParallelLines.htm</a>
+					<br />
+					<br />
+				</td>
+			</tr>
+
+			<tr>
+				<td style="width: 70%">
+					<div id="div2" style="width: 800px; height: 20px">
+					</div>
+				</td>
+				<td style="font-size: small">POLYLINES WITH DIRECTION ARROWS
+					<br />
+					<br />
+					For a demo of how to draw Polylines with direction arrows please see 
+					<a href="http://wtp2.appspot.com/ArrowLine.htm">http://wtp2.appspot.com/ArrowLine.htm</a>
+					<br />
+					<br />
+				</td>
+			</tr>
+
+
+			<tr>
+				<td style="width: 70%">
+					<div id="div1" style="width: 800px; height: 20px">
+					</div>
+				</td>
+				<td style="font-size: small">GOOGLE SPREADSHEET MAP WITH ADD + UPDATE
+					<br />
+					<br />
+					For a demo of how to use Google Spreadsheets as a read/write data source for a map please see 
+					<a href="http://wtp2.appspot.com/SpreadsheetMapDemo.htm">http://wtp2.appspot.com/SpreadsheetMapDemo.htm</a>
+					<br />
+					<br />
+				</td>
+			</tr>
+						
+			<tr>
+				<td style="width: 70%">
+					<div id="divEmpty" style="width: 800px; height: 20px">
+					</div>
+				</td>
+				<td style="font-size: small">EASY CUSTOM MAPS USING MICROSOFT MAP CRUNCHER
+					<br />
+					<br />
+					For a detailed instructions of how to easily make your own custom maps for use with the Google Maps API, please see 
+					<a href="http://www.bdcc.co.uk/GoogleCrunch/Crunch.htm">http://www.bdcc.co.uk/GoogleCrunch/Crunch.htm</a>
+					<br />
+					<br />
+				</td>
+			</tr>
+		</table>
+
+    <br />
+
+		<p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-2772316267487878";
+//BdccGmapBits
+google_ad_slot = "6277295773";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+		</p>
+		<br />
+
+	</body>
+</html>
