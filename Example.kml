@@ -11,7 +11,19 @@
 <Style id="orange"><IconStyle><Icon><href>https://www.doogal.co.uk/images/orange.png</href><scale>1.0</scale></Icon></IconStyle></Style>
 <Style id="grey"><IconStyle><Icon><href>https://www.doogal.co.uk/images/grey.png</href><scale>1.0</scale></Icon></IconStyle></Style>
 <Style id="brown"><IconStyle><Icon><href>https://www.doogal.co.uk/images/brown.png</href><scale>1.0</scale></Icon></IconStyle></Style>
-<Placemark><name>PE2 8HW</name><Point><coordinates>-0.229061,52.561709,0</coordinates></Point></Placemark>
+<Placemark><name>PE2 8HW</name>
+  <ExtendedData>
+      <Data name="holeNumber">
+        <value>1</value>
+      </Data>
+      <Data name="holeYardage">
+        <value>234</value>
+      </Data>
+      <Data name="holePar">
+        <value>4</value>
+      </Data>
+    </ExtendedData>
+ <Point><coordinates>-0.229061,52.561709,0</coordinates></Point></Placemark>
 <Placemark><name>PH34 4EQ</name><Point><coordinates>-4.986691,56.910449,0</coordinates></Point></Placemark>
 <Placemark><name>TR8 5AS</name><Point><coordinates>-5.006767,50.353478,0</coordinates></Point></Placemark>
 <Placemark><name>TA6 4TP</name><Point><coordinates>-2.985777,51.164151,0</coordinates></Point></Placemark>
