@@ -364,18 +364,270 @@
       </Data>
     </ExtendedData>
   <Point><coordinates>-4.067051,52.436549,0</coordinates></Point></Placemark>
-<Placemark><name>KW9 6LN</name><Point><coordinates>-3.855473,58.019964,0</coordinates></Point></Placemark>
-<Placemark><name>EX34 9NW</name><Point><coordinates>-4.116212,51.208449,0</coordinates></Point></Placemark>
-<Placemark><name>IP19 8QR</name><Point><coordinates>1.508184,52.353374,0</coordinates></Point></Placemark>
-<Placemark><name>CB25 0BQ</name><Point><coordinates>0.337695,52.295431,0</coordinates></Point></Placemark>
-<Placemark><name>CH62 3RP</name><Point><coordinates>-2.96817,53.336264,0</coordinates></Point></Placemark>
-<Placemark><name>SO41 0WJ</name><Point><coordinates>-1.585557,50.724096,0</coordinates></Point></Placemark>
-<Placemark><name>PE12 9SH</name><Point><coordinates>0.173326,52.773478,0</coordinates></Point></Placemark>
-<Placemark><name>SA36 0DS</name><Point><coordinates>-4.607928,51.95645,0</coordinates></Point></Placemark>
-<Placemark><name>OX18 1AA</name><Point><coordinates>-1.587094,51.766516,0</coordinates></Point></Placemark>
-<Placemark><name>DD2 1PZ</name><Point><coordinates>-3.034386,56.457546,0</coordinates></Point></Placemark>
-<Placemark><name>TF7 4NX</name><Point><coordinates>-2.426869,52.642673,0</coordinates></Point></Placemark>
-<Placemark><name>YO22 4QH</name><Point><coordinates>-0.56754,54.393432,0</coordinates></Point></Placemark>
+<Placemark><name>Victoria Garage</name>
+                <ExtendedData>
+      <Data name="Address">
+        <value>Victoria Rd, Brora, Highlands</value>
+      </Data>
+      <Data name="PostCode">
+        <value>KW9 6LN</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01408 621 456</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-3.855473,58.019964,0</coordinates></Point></Placemark>
+<Placemark><name>Horne Park</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Hillsborough rd, Ilfracombe, North Devon</value>
+      </Data>
+      <Data name="PostCode">
+        <value>EX34 9NW</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01271 865 087</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.30am - 5.30pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-4.116212,51.208449,0</coordinates></Point></Placemark>
+<Placemark><name>AWD & Hammond</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Norwich rd, Halesworth, Suffolk</value>
+      </Data>
+      <Data name="PostCode">
+        <value>IP19 8QR</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01986 834 099</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat (8 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>1.508184,52.353374,0</coordinates></Point></Placemark>
+<Placemark><name>Manchetts</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Broads rd, Burwell, Cambridgeshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>CB25 0BQ</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01638 744 528</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (7.30am - 6.30pm) Sat/Sun (8 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>0.337695,52.295431,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Car & Commercial</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Unit 5 Stadium ct, Bromborough, Wirral</value>
+      </Data>
+      <Data name="PostCode">
+        <value>CH62 3RP</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>0151 343 0900</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 6pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-2.96817,53.336264,0</coordinates></Point></Placemark>
+<Placemark><name>Forest Rescue</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Laundry Lane, Lymington, Hampshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>so410jw</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01590 643 924</value>
+      </Data>
+      <Data name="Facilities">
+        <value>NONE</value>
+      </Data>
+      <Data name="Can repair">
+        <value>N/A</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>N/A</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-1.585557,50.724096,0</coordinates></Point></Placemark>
+<Placemark><name>TEARS RECOVERY</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>262 Bridge rd, Spalding, Lincs</value>
+      </Data>
+      <Data name="PostCode">
+        <value>PE12 9SH</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01406 359 369</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (7.30am - 5.30pm) Sat (8 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>0.173326,52.773478,0</coordinates></Point></Placemark>
+<Placemark><name>Penllain Garage</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Hermon, Glogue, Pembrokeshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>SA36 0DS</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01239 831 393</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (7am - 7pm) Sat (7 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-4.607928,51.95645,0</coordinates></Point></Placemark>
+<Placemark><name>Cotswold Recovery</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>CVR House, Carterton, Oxfordshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>OX18 1AA</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01993 845 930</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.30am - 5pm) Sat (8.30 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-1.587094,51.766516,0</coordinates></Point></Placemark>
+<Placemark><name>TG Simpson</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Perth rd, Dundee, Scotland</value>
+      </Data>
+      <Data name="PostCode">
+        <value>DD2 1PZ</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01382 668 384</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.15am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-3.034386,56.457546,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Mechanical & Gailey</name>
+                   <ExtendedData>
+      <Data name="Address">
+        <value>Rescue & Repair center, Telford, Shropshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>TF7 4NX</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01952 583 600</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 6pm) Sat/Sun (8am - 6pm)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-2.426869,52.642673,0</coordinates></Point></Placemark>
+<Placemark><name>Fylingdales</name>
+                  <ExtendedData>
+      <Data name="Address">
+        <value>Whitby rd, Whitby, North Yorks</value>
+      </Data>
+      <Data name="PostCode">
+        <value>YO22 4QH</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01947 880 291</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-0.56754,54.393432,0</coordinates></Point></Placemark>
 <Placemark><name>NE21 5SR</name><Point><coordinates>-1.691497,54.965466,0</coordinates></Point></Placemark>
 <Placemark><name>DE55 7RH</name><Point><coordinates>-1.377717,53.103475,0</coordinates></Point></Placemark>
 <Placemark><name>KW17 2EQ</name><Point><coordinates>-3.109215,59.003903,0</coordinates></Point></Placemark>
