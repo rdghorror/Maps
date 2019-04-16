@@ -11,7 +11,7 @@
 				</Icon>
 			</IconStyle>
 			<LabelStyle>
-				<scale>0.0</scale>
+				<scale>0.01</scale>
 			</LabelStyle>
 			<BalloonStyle>
 				<text>$[description]</text>
@@ -168,6 +168,7 @@
 				</Data>
 			</ExtendedData>
 			<address>B44 8ND</address>
+			<Point><coordinates>-1.897302,52.536069,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>AASP RECOVERY LTD</name>
@@ -230,6 +231,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PE1 5TP</address>
+			<Point><coordinates>-0.214421,52.578564,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>STONEYWOOD MOTORS</name>
@@ -292,6 +294,7 @@
 				</Data>
 			</ExtendedData>
 			<address>HX6 1AN</address>
+			<Point><coordinates>-1.915945,53.708388,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>FURNESS CARS &amp; COMMERCIALS LTD</name>
@@ -354,6 +357,7 @@
 				</Data>
 			</ExtendedData>
 			<address>LA16 7HA</address>
+			<Point><coordinates>-3.187486,54.198076,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>GWALIA RECOVERY LIMITED</name>
@@ -416,6 +420,7 @@
 				</Data>
 			</ExtendedData>
 			<address>LL55 2SS</address>
+			<Point><coordinates>-4.240303,53.130886,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>DUNCHURCH MOTORS</name>
@@ -478,6 +483,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CV22 6RA</address>
+			<Point><coordinates>-1.292583,52.338006,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>J D MACADAM &amp; SON (RESCUE) LIMITED</name>
@@ -540,6 +546,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BB8 9RG</address>
+			<Point><coordinates>-2.175601,53.859195,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>CRESSWELL CARS LTD</name>
@@ -602,6 +609,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PA42 7AS</address>
+			<Point><coordinates>-6.243766,55.686263,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>RIVERSIDE MOTORS</name>
@@ -664,6 +672,7 @@
 				</Data>
 			</ExtendedData>
 			<address>EX11 1NR</address>
+			<Point><coordinates>-3.287742,50.750011,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>D &amp; S RECOVERY LIMITED</name>
@@ -726,6 +735,7 @@
 				</Data>
 			</ExtendedData>
 			<address>EX39 3HN</address>
+			<Point><coordinates>-4.233887,51.010049,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>AUTO SERVICES PERTH LIMITED</name>
@@ -788,6 +798,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PH1 3EE</address>
+			<Point><coordinates>-3.480621,56.417677,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>EDEN GARAGE</name>
@@ -850,6 +861,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CA10 1RS</address>
+			<Point><coordinates>-2.600133,54.634323,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>PLYMOUTH CAR RECOVERIES LIMITED</name>
@@ -912,6 +924,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PL7 4BA</address>
+			<Point><coordinates>-4.045036,50.393609,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>GLENDINNING BROS</name>
@@ -974,6 +987,7 @@
 				</Data>
 			</ExtendedData>
 			<address>NE42 6PL</address>
+			<Point><coordinates>-1.848272,54.967407,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ST MICHAEL'S GARAGE LIMITED</name>
@@ -1036,6 +1050,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BH19 3DX</address>
+			<Point><coordinates>-2.008224,50.620163,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>EGERTONS RECOVERY GROUP</name>
@@ -1098,6 +1113,7 @@
 				</Data>
 			</ExtendedData>
 			<address>WA16 7BS</address>
+			<Point><coordinates>-2.286939,53.315704,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>VICTORIA RECOVERY LTD</name>
@@ -1160,6 +1176,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BS37 7PR</address>
+			<Point><coordinates>-2.433787,51.544741,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>COASTAL RECOVERIES</name>
@@ -1222,6 +1239,7 @@
 				</Data>
 			</ExtendedData>
 			<address>LN12 1PX</address>
+			<Point><coordinates>0.242667,53.337216,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ABLE ASSIST LTD</name>
@@ -1284,6 +1302,7 @@
 				</Data>
 			</ExtendedData>
 			<address>NN3 6HH</address>
+			<Point><coordinates>-0.855142,52.270771,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>NATIONAL RESCUE GROUP</name>
@@ -1346,6 +1365,7 @@
 				</Data>
 			</ExtendedData>
 			<address>KT9 1RH</address>
+			<Point><coordinates>-0.293287,51.371377,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>LIX TOLL GARAGE LTD</name>
@@ -1408,6 +1428,7 @@
 				</Data>
 			</ExtendedData>
 			<address>FK21 8RB</address>
+			  <Point><coordinates>-4.358413,56.440864,0</coordinates></Point></Placemark>
 		</Placemark>
 		<Placemark>
 			<name>LADYROYD GARAGE LTD</name>
@@ -1470,6 +1491,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BD8 9RB</address>
+			<Point><coordinates>-1.789614,53.799015,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>KEITH MOTOR COMPANY</name>
@@ -1532,6 +1554,7 @@
 				</Data>
 			</ExtendedData>
 			<address>AB55 5GB</address>
+			<Point><coordinates>-2.953306,57.550465,0</coordinates></Point></Placemark>
 		</Placemark>
 		<Placemark>
 			<name>TECH TRUCKS UK LTD</name>
@@ -1594,6 +1617,7 @@
 				</Data>
 			</ExtendedData>
 			<address>HR3 6NR</address>
+			<Point><coordinates>-3.005406,52.137669,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>A1 RECOVERY LTD</name>
@@ -1656,6 +1680,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SP10 5AG</address>
+			<Point><coordinates>-1.457285,51.215381,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>LJ TRANSPORTATION LTD</name>
@@ -1718,6 +1743,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CM3 6LG</address>
+			<Point><coordinates>0.710129,51.676761,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ALAN GRAHAM RECOVERY</name>
@@ -1780,6 +1806,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BT74 4JU</address>
+			<Point><coordinates>-7.572212,54.382678,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>GAVINS RECOVERY</name>
@@ -1842,6 +1869,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BT34 4LA</address>
+			<Point><coordinates>-6.036495,54.062446,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>EUROROUTE RECOVERY</name>
@@ -1904,6 +1932,7 @@
 				</Data>
 			</ExtendedData>
 			<address>DG2 8PN</address>
+			<Point><coordinates>-3.653005,55.059051,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>GRAHAMS VEHICLE REPAIRS</name>
@@ -1966,6 +1995,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SY23 3DT</address>
+			<Point><coordinates>-4.067051,52.436549,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>VICTORIA GARAGE</name>
@@ -2028,6 +2058,7 @@
 				</Data>
 			</ExtendedData>
 			<address>KW9 6LN</address>
+			<Point><coordinates>-3.855473,58.019964,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>HORNE PARK GARAGE LIMITED</name>
@@ -2090,6 +2121,7 @@
 				</Data>
 			</ExtendedData>
 			<address>EX34 9NW</address>
+			<Point><coordinates>-4.116212,51.208449,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>LOCH SHIEL GARAGE 2010 LIMITED</name>
@@ -2152,6 +2184,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PH36 4JL</address>
+			<Point><coordinates>-5.787669,56.741607,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>E BURGOYNE &amp; SON LTD</name>
@@ -2214,6 +2247,7 @@
 				</Data>
 			</ExtendedData>
 			<address>FK2 8PN</address>
+			<Point><coordinates>-3.757061,56.057722,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>MACLENNAN AUTOS</name>
@@ -2276,6 +2310,7 @@
 				</Data>
 			</ExtendedData>
 			<address>HS2 9DB</address>
+			<Point><coordinates>-6.595694,58.342363,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>PARKER FRY RECOVERY LTD</name>
@@ -2338,6 +2373,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PE2 8HW</address>
+			 <Point><coordinates>-0.229061,52.561709,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>TONGUE GARAGE COMPANY LIMITED</name>
@@ -2400,6 +2436,7 @@
 				</Data>
 			</ExtendedData>
 			<address>IV27 4XF</address>
+			<Point><coordinates>-4.417344,58.475978,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ADJ STEVENSON RECOVERY (SPEAN BRIDGE GARAGE)</name>
@@ -2462,6 +2499,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PH34 4EQ</address>
+			<Point><coordinates>-4.986691,56.910449,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>WALTER HOGARTH</name>
@@ -2524,6 +2562,7 @@
 				</Data>
 			</ExtendedData>
 			<address>TD14 5LQ</address>
+			<Point><coordinates>-2.104401,55.869334,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>FOURWINDS GARAGE (MITCHELL) LIMITED</name>
@@ -2586,6 +2625,7 @@
 				</Data>
 			</ExtendedData>
 			<address>TR8 5AS</address>
+			<Point><coordinates>-5.006767,50.353478,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>BARTLETTS SERVICE STATION</name>
@@ -2648,6 +2688,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PO36 0NP</address>
+			<Point><coordinates>-1.210529,50.670407,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>GEREC LIMITED</name>
@@ -2710,6 +2751,7 @@
 				</Data>
 			</ExtendedData>
 			<address>TA6 4TP</address>
+			<Point><coordinates>-2.985777,51.164151,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ANGLIA RECOVERY LIMITED</name>
@@ -2772,6 +2814,7 @@
 				</Data>
 			</ExtendedData>
 			<address>NR21 8NL</address>
+			<Point><coordinates>0.868727,52.83422,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>THOMAS MOTORS</name>
@@ -2834,6 +2877,7 @@
 				</Data>
 			</ExtendedData>
 			<address>LD1 5RH</address>
+			<Point><coordinates>-3.362503,52.20469,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>CARS RECOVERY LIMITED</name>
@@ -2896,6 +2940,7 @@
 				</Data>
 			</ExtendedData>
 			<address>AB12 3AS</address>
+			<Point><coordinates>-2.093945,57.125219,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>STAG GARAGE LIMITED</name>
@@ -2958,6 +3003,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PA31 8LT</address>
+			 <Point><coordinates>-5.434351,56.038261,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>RANDY'S VEHICLE RECOVERY LTD</name>
@@ -3020,6 +3066,7 @@
 				</Data>
 			</ExtendedData>
 			<address>EH41 3PE</address>
+			<Point><coordinates>-2.79382,55.956381,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>CHISHOLMS GARAGE (BALLACHULISH) LTD</name>
@@ -3082,6 +3129,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PH49 4JR</address>
+			<Point><coordinates>-5.135225,56.677429,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>J &amp; J CAMPSIE LIMITED</name>
@@ -3144,6 +3192,7 @@
 				</Data>
 			</ExtendedData>
 			<address>ML12 6EP</address>
+			<Point><coordinates>-3.53144,55.620814,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>SHERIFFMILL MOTOR CO LTD</name>
@@ -3206,6 +3255,7 @@
 				</Data>
 			</ExtendedData>
 			<address>IV30 6UH</address>
+			 <Point><coordinates>-3.341745,57.648598,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>A W &amp; D HAMMOND LIMITED</name>
@@ -3268,6 +3318,7 @@
 				</Data>
 			</ExtendedData>
 			<address>IP19 8QR</address>
+			<Point><coordinates>1.508184,52.353374,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>MANCHETTS RESCUE &amp; RECOVERY</name>
@@ -3330,6 +3381,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CB25 0BQ</address>
+			<Point><coordinates>0.337695,52.295431,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>A1 CAR AND COMMERCIAL VEHICLE SERVICES</name>
@@ -3392,6 +3444,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CH62 3RP</address>
+			<Point><coordinates>-2.96817,53.336264,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>FORREST RESCUE</name>
@@ -3454,6 +3507,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SO41 0WJ</address>
+			<Point><coordinates>-1.585557,50.724096,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>TEARS RECOVERY</name>
@@ -3516,6 +3570,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PE12 9SH</address>
+			<Point><coordinates>0.173326,52.773478,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>PENLLAIN GARAGE</name>
@@ -3578,6 +3633,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SA36 0DS</address>
+			<Point><coordinates>-4.607928,51.95645,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>COTSWOLD VEHICLE RECOVERY</name>
@@ -3640,6 +3696,7 @@
 				</Data>
 			</ExtendedData>
 			<address>OX18 1AA</address>
+			<Point><coordinates>-1.587094,51.766516,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>T G SIMPSON (NINEWELLS GARAGE) LTD</name>
@@ -3702,6 +3759,7 @@
 				</Data>
 			</ExtendedData>
 			<address>DD2 1PZ</address>
+			<Point><coordinates>-3.034386,56.457546,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>AUTO MECHANICAL &amp; GAILEY RECOVERY LTD</name>
@@ -3764,6 +3822,7 @@
 				</Data>
 			</ExtendedData>
 			<address>TF7 4NX</address>
+			<Point><coordinates>-2.426869,52.642673,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>FYLINGDALES SERVICE STATION</name>
@@ -3826,6 +3885,7 @@
 				</Data>
 			</ExtendedData>
 			<address>YO22 4QH</address>
+			<Point><coordinates>-0.56754,54.393432,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>LIFTONDOWN GARAGE LIMITED</name>
@@ -3888,6 +3948,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PL16 0DB</address>
+			<Point><coordinates>-4.306894,50.645237,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>POTTERS GREEN SERVICE STATION</name>
@@ -3950,6 +4011,7 @@
 				</Data>
 			</ExtendedData>
 			<address>CV7 9EP</address>
+			<Point><coordinates>-1.474656,52.465878,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>JIM'S GARAGE (SHETLAND) LIMITED</name>
@@ -4012,6 +4074,7 @@
 				</Data>
 			</ExtendedData>
 			<address>ZE1 0PX</address>
+			<Point><coordinates>-1.164724,60.166974,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>CREAGORRY MOTORS LIMITED</name>
@@ -4074,6 +4137,7 @@
 				</Data>
 			</ExtendedData>
 			<address>HS7 5PY</address>
+			<Point><coordinates>-7.336108,57.422769,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>MILLBROOK RECOVERY</name>
@@ -4136,6 +4200,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SA5 4HY</address>
+			<Point><coordinates>-3.996916,51.645347,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>RON PERRY A19 TEST &amp; TUNE LTD</name>
@@ -4198,6 +4263,7 @@
 				</Data>
 			</ExtendedData>
 			<address>TS27 3HH</address>
+			<Point><coordinates>-1.303035,54.655376,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>LENNOX AUTO SERVICES LTD</name>
@@ -4260,6 +4326,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BT45 7YX</address>
+			<Point><coordinates>-6.700637,54.702801,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>WEST END GARAGE (FORT AUGUSTUS)</name>
@@ -4322,6 +4389,7 @@
 				</Data>
 			</ExtendedData>
 			<address>PH32 4BH</address>
+			<Point><coordinates>-4.685313,57.142601,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>BRADBURYS GARAGE</name>
@@ -4384,6 +4452,7 @@
 				</Data>
 			</ExtendedData>
 			<address>LL42 1PH</address>
+			<Point><coordinates>-4.057799,52.724071,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>REDHILL RESCUE SOLUTIONS</name>
@@ -4446,6 +4515,7 @@
 				</Data>
 			</ExtendedData>
 			<address>B38 8NA</address>
+			<Point><coordinates>-1.948827,52.396668,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>C.F. MOTORING SERVICES LIMITED</name>
@@ -4508,6 +4578,7 @@
 				</Data>
 			</ExtendedData>
 			<address>NE21 5SR</address>
+			<Point><coordinates>-1.691497,54.965466,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>RICHFORD MOTOR SERVICES LTD</name>
@@ -4570,6 +4641,7 @@
 				</Data>
 			</ExtendedData>
 			<address>DE55 7RH</address>
+			<Point><coordinates>-1.377717,53.103475,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ESSON'S GARAGE LTD</name>
@@ -4632,6 +4704,7 @@
 				</Data>
 			</ExtendedData>
 			<address>KW17 2EQ</address>
+			<Point><coordinates>-3.109215,59.003903,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>MOTORMOBILE RECOVERY</name>
@@ -4694,6 +4767,7 @@
 				</Data>
 			</ExtendedData>
 			<address>WS8 6JB</address>
+			<Point><coordinates>-1.925829,52.650198,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>MILLFORGE LIMITED</name>
@@ -4756,6 +4830,7 @@
 				</Data>
 			</ExtendedData>
 			<address>SA72 6TQ</address>
+			<Point><coordinates>-4.939897,51.698267,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ROSS'S GARAGE</name>
@@ -4818,6 +4893,7 @@
 				</Data>
 			</ExtendedData>
 			<address>IV2 5EL</address>
+			<Point><coordinates>-4.075935,57.466982,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>TF SMITHS UK LTD</name>
@@ -4880,6 +4956,7 @@
 				</Data>
 			</ExtendedData>
 			<address>BD4 7DG</address>
+			<Point><coordinates>-1.744115,53.784228,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>BURROWS RECOVERY LIMITED</name>
@@ -4942,6 +5019,7 @@
 				</Data>
 			</ExtendedData>
 			<address>DE21 6EN</address>
+			<Point><coordinates>-1.458406,52.923122,0</coordinates></Point>
 		</Placemark>
 		<Placemark>
 			<name>ANDREWS GARAGE RECOVERY LTD</name>
