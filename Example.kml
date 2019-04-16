@@ -320,8 +320,50 @@
       </Data>
     </ExtendedData>
   <Point><coordinates>-6.036495,54.062446,0</coordinates></Point></Placemark>
-<Placemark><name>DG2 8PN</name><Point><coordinates>-3.653005,55.059051,0</coordinates></Point></Placemark>
-<Placemark><name>SY23 3DT</name><Point><coordinates>-4.067051,52.436549,0</coordinates></Point></Placemark>
+<Placemark><name>Euroroute</name>
+              <ExtendedData>
+      <Data name="Address">
+        <value>St Marys Ind estate, Dumfries</value>
+      </Data>
+      <Data name="PostCode">
+        <value>DG2 8PN</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01776 700 999</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.30am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-3.653005,55.059051,0</coordinates></Point></Placemark>
+<Placemark><name>Grahams Vehilce Recovery</name>
+              <ExtendedData>
+      <Data name="Address">
+        <value>Aberystwyth, Ceredigion</value>
+      </Data>
+      <Data name="PostCode">
+        <value>SY23 3DT</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01970 820 440</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.30am - 5.30pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-4.067051,52.436549,0</coordinates></Point></Placemark>
 <Placemark><name>KW9 6LN</name><Point><coordinates>-3.855473,58.019964,0</coordinates></Point></Placemark>
 <Placemark><name>EX34 9NW</name><Point><coordinates>-4.116212,51.208449,0</coordinates></Point></Placemark>
 <Placemark><name>IP19 8QR</name><Point><coordinates>1.508184,52.353374,0</coordinates></Point></Placemark>
