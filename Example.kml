@@ -78,17 +78,248 @@
       </Data>
     </ExtendedData>
   <Point><coordinates>-5.006767,50.353478,0</coordinates></Point></Placemark>
-<Placemark><name>TA6 4TP</name><Point><coordinates>-2.985777,51.164151,0</coordinates></Point></Placemark>
-<Placemark><name>LD1 5RH</name><Point><coordinates>-3.362503,52.20469,0</coordinates></Point></Placemark>
-<Placemark><name>PA31 8LT</name><Point><coordinates>-5.434351,56.038261,0</coordinates></Point></Placemark>
-<Placemark><name>PH49 4JR</name><Point><coordinates>-5.135225,56.677429,0</coordinates></Point></Placemark>
-<Placemark><name>IV30 6UH</name><Point><coordinates>-3.341745,57.648598,0</coordinates></Point></Placemark>
-<Placemark><name>FK21 8RB</name><Point><coordinates>-4.358413,56.440864,0</coordinates></Point></Placemark>
-<Placemark><name>AB55 5GB</name><Point><coordinates>-2.953306,57.550465,0</coordinates></Point></Placemark>
-<Placemark><name>SP10 5AG</name><Point><coordinates>-1.457285,51.215381,0</coordinates></Point></Placemark>
-<Placemark><name>CM3 6LG </name><Point><coordinates>0.710129,51.676761,0</coordinates></Point></Placemark>
-<Placemark><name>BT74 4JU</name><Point><coordinates>-7.572212,54.382678,0</coordinates></Point></Placemark>
-<Placemark><name>BT34 4LA</name><Point><coordinates>-6.036495,54.062446,0</coordinates></Point></Placemark>
+<Placemark><name>GEREC LTD</name>
+        <ExtendedData>
+      <Data name="Address">
+        <value>2A Dunball IND estate, Somerset</value>
+      </Data>
+      <Data name="PostCode">
+        <value>TA6 4TP</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01278 686 994</value>
+      </Data>
+      <Data name="Facilities">
+        <value>WORKSHOP</value>
+      </Data>
+      <Data name="Can repair">
+        <value>CARS, VANS, MOTORCYCLES</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (9am - 5pm) Sat/Sun (closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-2.985777,51.164151,0</coordinates></Point></Placemark>
+<Placemark><name>Thomas Motors</name>
+        <ExtendedData>
+      <Data name="Address">
+        <value>Bryngwanoff Buildings, Llandrindod Wells, Powys</value>
+      </Data>
+      <Data name="PostCode">
+        <value>LD1 5RH</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01597 822 547</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (08.30am - 5.30pm) Sat (10 - 12) Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-3.362503,52.20469,0</coordinates></Point></Placemark>
+<Placemark><name>STAG GARAGE</name>
+        <ExtendedData>
+      <Data name="Address">
+        <value>Lorns Street, Argyll</value>
+      </Data>
+      <Data name="PostCode">
+        <value>PA31 8LT</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01546 600 044</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (08.30am - 5.00pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-5.434351,56.038261,0</coordinates></Point></Placemark>
+<Placemark><name>Chisolms Garage</name>
+        <ExtendedData>
+      <Data name="Address">
+        <value>Unit 1 West Quarry, Argyll</value>
+      </Data>
+      <Data name="PostCode">
+        <value>PH49 4JR</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01855 811 431</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8.30am - 5.00pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-5.135225,56.677429,0</coordinates></Point></Placemark>
+<Placemark><name>Sheriffmill Motors</name>
+        <ExtendedData>
+      <Data name="Address">
+        <value>Sheriffmill rd, Elgin, Moray</value>
+      </Data>
+      <Data name="PostCode">
+        <value>IV30 6UH</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01343 547 121</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat (8 - 12)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-3.341745,57.648598,0</coordinates></Point></Placemark>
+<Placemark><name>Lix Toll</name>
+          <ExtendedData>
+      <Data name="Address">
+        <value>Lix Toll, Killin, Perthshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>FK21 8RB</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01567 820 280</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5.30pm) Sat (8am - 5.30pm) Sun (10.30am - 5.30pm)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-4.358413,56.440864,0</coordinates></Point></Placemark>
+<Placemark><name>Keith Motor Company</name>
+          <ExtendedData>
+      <Data name="Address">
+        <value>Newmill Trading est, Keith, Banffshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>AB55 5GB</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01542 882 735</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-2.953306,57.550465,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Recovery</name>
+            <ExtendedData>
+      <Data name="Address">
+        <value>Unit 1&2 Focus ct, Andover, Hampshire</value>
+      </Data>
+      <Data name="PostCode">
+        <value>SP10 5AG</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>0300 303 4128</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (8am - 5pm) Sat/Sun (Closed)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-1.457285,51.215381,0</coordinates></Point></Placemark>
+<Placemark><name>LJ Transportation</name>
+      <ExtendedData>
+      <Data name="Address">
+        <value>Unit 141, Latchingdon, Essex</value>
+      </Data>
+      <Data name="PostCode">
+        <value>CM3 6LG</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>01621 730 828</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (24 Hr) Sat/Sun (24hr)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>0.710129,51.676761,0</coordinates></Point></Placemark>
+<Placemark><name>Alan Graham Recovery</name>
+            <ExtendedData>
+      <Data name="Address">
+        <value>Enniskillen, Co Fermanagh</value>
+      </Data>
+      <Data name="PostCode">
+        <value>BT74 4JU</value>
+      </Data>
+      <Data name="Contact Number">
+        <value>02866 322 227</value>
+      </Data>
+      <Data name="Facilities">
+        <value>Workshop, Tyres, Batteries</value>
+      </Data>
+      <Data name="Can repair">
+        <value>Cars, Vans, Caravans, Motorcycles</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>Mon - Fri (9am - 6pm) Sat (9am - 5pm)</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-7.572212,54.382678,0</coordinates></Point></Placemark>
+<Placemark><name>Gavins Recovery</name>
+            <ExtendedData>
+      <Data name="Address">
+        <value>378 Belmont Rd, Kilkeel
+      </Data>
+      <Data name="PostCode">
+        <value>BT34 4LA
+      </Data>
+      <Data name="Contact Number">
+        <value>07808 811 705</value>
+      </Data>
+      <Data name="Facilities">
+        <value>NONElue>
+      </Data>
+      <Data name="Can repair">
+        <value>N/A</value>
+      </Data>
+      <Data name="Opening Hours">
+        <value>N/A</value>
+      </Data>
+    </ExtendedData>
+  <Point><coordinates>-6.036495,54.062446,0</coordinates></Point></Placemark>
 <Placemark><name>DG2 8PN</name><Point><coordinates>-3.653005,55.059051,0</coordinates></Point></Placemark>
 <Placemark><name>SY23 3DT</name><Point><coordinates>-4.067051,52.436549,0</coordinates></Point></Placemark>
 <Placemark><name>KW9 6LN</name><Point><coordinates>-3.855473,58.019964,0</coordinates></Point></Placemark>
