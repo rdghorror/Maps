@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Geocoded addresses</name><Style id="red"><IconStyle><Icon><href>https://www.doogal.co.uk/images/red.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="green"><IconStyle><Icon><href>https://www.doogal.co.uk/images/green.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="blue"><IconStyle><Icon><href>https://www.doogal.co.uk/images/blue.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="yellow"><IconStyle><Icon><href>https://www.doogal.co.uk/images/yellow.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="black"><IconStyle><Icon><href>https://www.doogal.co.uk/images/black.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="white"><IconStyle><Icon><href>https://www.doogal.co.uk/images/white.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="pink"><IconStyle><Icon><href>https://www.doogal.co.uk/images/pink.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="orange"><IconStyle><Icon><href>https://www.doogal.co.uk/images/orange.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="grey"><IconStyle><Icon><href>https://www.doogal.co.uk/images/grey.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Style id="brown"><IconStyle><Icon><href>https://www.doogal.co.uk/images/brown.png</href><scale>1.0</scale></Icon></IconStyle></Style>
+<Placemark><name>911 Rescue Recovery Limited</name><Point><coordinates>-4.2413,55.834542,0</coordinates></Point></Placemark>
+<Placemark><name>911 Rescue Recovery Limited</name><Point><coordinates>-3.167751,55.875416,0</coordinates></Point></Placemark>
+<Placemark><name>911 Rescue Recovery Limited</name><Point><coordinates>-4.73027,55.94234,0</coordinates></Point></Placemark>
+<Placemark><name>911 Rescue Recovery Limited</name><Point><coordinates>-4.063512,55.815529,0</coordinates></Point></Placemark>
+<Placemark><name>911 Rescue Recovery Limited</name><Point><coordinates>-4.635343,55.607474,0</coordinates></Point></Placemark>
+<Placemark><name>A W &amp; D Hammond Limited</name><Point><coordinates>1.508184,52.353374,0</coordinates></Point></Placemark>
+<Placemark><name>A W &amp; D Hammond Limited</name><Point><coordinates>1.411042,52.129398,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Car &amp; Commercial Recovery</name><Point><coordinates>-2.96817,53.336264,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Car &amp; Commercial Recovery</name><Point><coordinates>-3.418882,53.302287,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Car &amp; Commercial Recovery</name><Point><coordinates>-2.990911,53.043754,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Car &amp; Commercial Recovery</name><Point><coordinates>-2.98,53.406758,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Marsden Recovery Specialists Ltd</name><Point><coordinates>-5.98223,54.570565,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Marsden Recovery Specialists Ltd</name><Point><coordinates>-6.348502,54.483814,0</coordinates></Point></Placemark>
+<Placemark><name>A1 Recovery Ltd</name><Point><coordinates>-1.457285,51.215381,0</coordinates></Point></Placemark>
+<Placemark><name>Able Assist</name><Point><coordinates>-0.855142,52.270771,0</coordinates></Point></Placemark>
+<Placemark><name>Able Assist</name><Point><coordinates>-0.855142,52.270771,0</coordinates></Point></Placemark>
+<Placemark><name>ADJ Stevenson t/a Spean Bridge Garage</name><Point><coordinates>-4.986691,56.910449,0</coordinates></Point></Placemark>
+<Placemark><name>Advance Auto Recovery</name><Point><coordinates>-1.23342,52.957725,0</coordinates></Point></Placemark>
+<Placemark><name>AJK Thompson&apos;s King Street Garage</name><Point><coordinates>-1.653997,55.580055,0</coordinates></Point></Placemark>
+<Placemark><name>Alan Graham Recovery Services</name><Point><coordinates>-7.572212,54.382678,0</coordinates></Point></Placemark>
+<Placemark><name>Albany Motors</name><Point><coordinates>-1.587638,54.966091,0</coordinates></Point></Placemark>
+<Placemark><name>Alex Forbes &amp; Sons</name><Point><coordinates>-5.585419,57.840786,0</coordinates></Point></Placemark>
+<Placemark><name>Alistair MacDougall</name><Point><coordinates>-6.336658,56.324776,0</coordinates></Point></Placemark>
+<Placemark><name>Andrews Garage</name><Point><coordinates>-5.234047,55.907426,0</coordinates></Point></Placemark>
+<Placemark><name>Andrews Garage Recovery Ltd</name><Point><coordinates>-4.57635,55.969484,0</coordinates></Point></Placemark>
+<Placemark><name>Anglia Recovery Limited</name><Point><coordinates>0.868727,52.83422,0</coordinates></Point></Placemark>
+<Placemark><name>Anglia Recovery Limited</name><Point><coordinates>1.214385,52.643845,0</coordinates></Point></Placemark>
+<Placemark><name>Anglia Recovery Limited</name><Point><coordinates>1.736173,52.604445,0</coordinates></Point></Placemark>
+<Placemark><name>Angus Lambie Motor Engineers</name><Point><coordinates>-5.136975,55.575943,0</coordinates></Point></Placemark>
+<Placemark><name>Argyll Garage</name><Point><coordinates>-2.775155,57.442056,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Mechanical &amp; Gailey Recovery</name><Point><coordinates>-2.426869,52.642673,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Rescue (Scotland) Ltd</name><Point><coordinates>-3.977722,55.90868,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Services Perth Limited</name><Point><coordinates>-3.480621,56.417677,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Support Ltd</name><Point><coordinates>-2.169851,52.191516,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Support Ltd</name><Point><coordinates>-2.244011,52.366058,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Support Ltd</name><Point><coordinates>-2.157014,52.064812,0</coordinates></Point></Placemark>
+<Placemark><name>Autoassist247 Recovery Limited</name><Point><coordinates>-3.128487,51.011338,0</coordinates></Point></Placemark>
+<Placemark><name>Auto Vehicle Specialists</name><Point><coordinates>-2.258193,52.372779,0</coordinates></Point></Placemark>
+<Placemark><name>Automania</name><Point><coordinates>-0.58804,51.51226,0</coordinates></Point></Placemark>
+<Placemark><name>Automania</name><Point><coordinates>-0.235777,51.493085,0</coordinates></Point></Placemark>
+<Placemark><name>Automania</name><Point><coordinates>-0.3964,51.486651,0</coordinates></Point></Placemark>
+<Placemark><name>Ballymena Recovery Services</name><Point><coordinates>-6.229305,54.884313,0</coordinates></Point></Placemark>
+<Placemark><name>Bartlett&apos;s Service Station</name><Point><coordinates>-1.210529,50.670407,0</coordinates></Point></Placemark>
+<Placemark><name>Beacon Recovery Services</name><Point><coordinates>-0.457745,54.270688,0</coordinates></Point></Placemark>
+<Placemark><name>Beeches Recovery</name><Point><coordinates>-1.897302,52.536069,0</coordinates></Point></Placemark>
+<Placemark><name>Beeches Recovery</name><Point><coordinates>-1.593995,52.39429,0</coordinates></Point></Placemark>
+<Placemark><name>Beeches Recovery</name><Point><coordinates>-1.700496,52.193174,0</coordinates></Point></Placemark>
+<Placemark><name>Benson Garage :td</name><Point><coordinates>-1.107225,51.621189,0</coordinates></Point></Placemark>
+<Placemark><name>Blair Atholl Garage</name><Point><coordinates>-3.836237,56.766506,0</coordinates></Point></Placemark>
+<Placemark><name>Bradburys Garage</name><Point><coordinates>-4.057799,52.724071,0</coordinates></Point></Placemark>
+<Placemark><name>Braefel Garage</name><Point><coordinates>-5.093697,50.35581,0</coordinates></Point></Placemark>
+<Placemark><name>Bride Valley Recovery</name><Point><coordinates>-2.393814,50.778014,0</coordinates></Point></Placemark>
+<Placemark><name>Burke Bros Recovery</name><Point><coordinates>-2.101315,52.797966,0</coordinates></Point></Placemark>
+<Placemark><name>Burke Bros Recovery</name><Point><coordinates>-2.127397,52.598299,0</coordinates></Point></Placemark>
+<Placemark><name>Burnside Garage</name><Point><coordinates>-6.636533,55.135433,0</coordinates></Point></Placemark>
+<Placemark><name>Burrows Recovery</name><Point><coordinates>-1.458406,52.923122,0</coordinates></Point></Placemark>
+<Placemark><name>Burrows Recovery</name><Point><coordinates>-1.170521,52.936978,0</coordinates></Point></Placemark>
+<Placemark><name>Burrows Recovery</name><Point><coordinates>-1.631212,52.816171,0</coordinates></Point></Placemark>
+<Placemark><name>C&amp;S Motors</name><Point><coordinates>-0.04037,51.608405,0</coordinates></Point></Placemark>
+<Placemark><name>Caldicot Fleet Maintanance Recovery</name><Point><coordinates>-2.521888,51.835824,0</coordinates></Point></Placemark>
+<Placemark><name>Caldicot Fleet Maintanance Recovery</name><Point><coordinates>-2.7376,51.590096,0</coordinates></Point></Placemark>
+<Placemark><name>Caldicot Fleet Maintanance Recovery</name><Point><coordinates>-2.253564,51.863332,0</coordinates></Point></Placemark>
+<Placemark><name>Cambrian Car Care Ltd</name><Point><coordinates>-3.544164,51.500552,0</coordinates></Point></Placemark>
+<Placemark><name>Campbells Garage Limited</name><Point><coordinates>-1.809602,57.513391,0</coordinates></Point></Placemark>
+<Placemark><name>CARS Recovery Ltd</name><Point><coordinates>-2.093945,57.125219,0</coordinates></Point></Placemark>
+<Placemark><name>CCRS Limited</name><Point><coordinates>-5.622556,54.631727,0</coordinates></Point></Placemark>
+<Placemark><name>Celtic Recovery Ltd</name><Point><coordinates>-3.146209,51.499084,0</coordinates></Point></Placemark>
+<Placemark><name>Celtic Recovery Ltd</name><Point><coordinates>-2.25393,51.856685,0</coordinates></Point></Placemark>
+<Placemark><name>Celtic Recovery Ltd</name><Point><coordinates>-2.690972,51.519453,0</coordinates></Point></Placemark>
+<Placemark><name>CF Motoring Services Limited</name><Point><coordinates>-1.691497,54.965466,0</coordinates></Point></Placemark>
+<Placemark><name>CF Motoring Services Limited</name><Point><coordinates>-1.325833,54.541967,0</coordinates></Point></Placemark>
+<Placemark><name>Chisholms Garage</name><Point><coordinates>-5.135225,56.677429,0</coordinates></Point></Placemark>
+<Placemark><name>Civic Motoring Services Ltd</name><Point><coordinates>-3.916186,51.659234,0</coordinates></Point></Placemark>
+<Placemark><name>Coastal Recoveries</name><Point><coordinates>0.242667,53.337216,0</coordinates></Point></Placemark>
+<Placemark><name>Connoisseur Recovery Ltd</name><Point><coordinates>-0.441868,51.638236,0</coordinates></Point></Placemark>
+<Placemark><name>Connoisseur Recovery Ltd</name><Point><coordinates>-0.443853,51.770763,0</coordinates></Point></Placemark>
+<Placemark><name>Cotswold Vehicle Recovery Ltd</name><Point><coordinates>-1.587094,51.766516,0</coordinates></Point></Placemark>
+<Placemark><name>Cotswold Vehicle Recovery Ltd</name><Point><coordinates>-1.954681,51.90472,0</coordinates></Point></Placemark>
+<Placemark><name>Cowan Recovery t/a CMG</name><Point><coordinates>-0.749005,52.08315,0</coordinates></Point></Placemark>
+<Placemark><name>Creagorry Motors Limited</name><Point><coordinates>-7.336108,57.422769,0</coordinates></Point></Placemark>
+<Placemark><name>Cresswell Cars Ltd</name><Point><coordinates>-6.243766,55.686263,0</coordinates></Point></Placemark>
+<Placemark><name>Crouch Recovery</name><Point><coordinates>-0.984821,52.538136,0</coordinates></Point></Placemark>
+<Placemark><name>Crouch Recovery</name><Point><coordinates>-1.196868,52.467025,0</coordinates></Point></Placemark>
+<Placemark><name>Crouch Recovery</name><Point><coordinates>-1.344928,52.695473,0</coordinates></Point></Placemark>
+<Placemark><name>Crouch Recovery</name><Point><coordinates>-0.905334,52.479511,0</coordinates></Point></Placemark>
+<Placemark><name>Currys Garage Limited</name><Point><coordinates>-7.190936,54.999024,0</coordinates></Point></Placemark>
+<Placemark><name>Currys Garage Limited</name><Point><coordinates>-7.37328,54.722682,0</coordinates></Point></Placemark>
+<Placemark><name>D &amp; S Recovery</name><Point><coordinates>-4.233887,51.010049,0</coordinates></Point></Placemark>
+<Placemark><name>D&amp;G Assist</name><Point><coordinates>0.302254,51.566977,0</coordinates></Point></Placemark>
+<Placemark><name>D&amp;G Assist</name><Point><coordinates>0.517662,51.393798,0</coordinates></Point></Placemark>
+<Placemark><name>DJ Commercials Ltd (Lingdale)</name><Point><coordinates>-0.958503,54.537409,0</coordinates></Point></Placemark>
+<Placemark><name>Dunchurch Motors</name><Point><coordinates>-1.292583,52.338006,0</coordinates></Point></Placemark>
+<Placemark><name>E Burgoyne &amp; Sons</name><Point><coordinates>-3.757061,56.057722,0</coordinates></Point></Placemark>
+<Placemark><name>E&amp;S Motors</name><Point><coordinates>-1.991766,52.581718,0</coordinates></Point></Placemark>
+<Placemark><name>E&amp;S Motors</name><Point><coordinates>-2.084959,52.563843,0</coordinates></Point></Placemark>
+<Placemark><name>EA Downes &amp; Sons</name><Point><coordinates>-2.803418,52.536846,0</coordinates></Point></Placemark>
+<Placemark><name>EA Downes &amp; Sons</name><Point><coordinates>-2.755099,52.692022,0</coordinates></Point></Placemark>
+<Placemark><name>Eden Garage</name><Point><coordinates>-2.600133,54.634323,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.286939,53.315704,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.951507,54.924235,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-3.417937,54.663725,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.869063,54.797691,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.843642,54.650817,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.225403,53.566823,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.259099,53.400558,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.504454,53.359117,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.335809,53.139358,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-2.430624,53.088003,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-1.812338,52.487743,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-1.203092,51.960745,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-1.270574,51.694779,0</coordinates></Point></Placemark>
+<Placemark><name>Egertons Recovery Group Ltd</name><Point><coordinates>-1.291567,51.398335,0</coordinates></Point></Placemark>
+<Placemark><name>Enfield Auto Recovery</name><Point><coordinates>-0.285667,52.212437,0</coordinates></Point></Placemark>
+<Placemark><name>Esson&apos;s Garage Ltd</name><Point><coordinates>-3.109215,59.003903,0</coordinates></Point></Placemark>
+<Placemark><name>Euroroute Recovery</name><Point><coordinates>-3.653005,55.059051,0</coordinates></Point></Placemark>
+<Placemark><name>Euroroute Recovery</name><Point><coordinates>-5.019874,54.895301,0</coordinates></Point></Placemark>
+<Placemark><name>Euroroute Recovery</name><Point><coordinates>-2.659131,55.557835,0</coordinates></Point></Placemark>
+<Placemark><name>Ewen Macrae (West End Garage)</name><Point><coordinates>-6.206084,57.414835,0</coordinates></Point></Placemark>
+<Placemark><name>FAM Engineering Ltd</name><Point><coordinates>-2.336152,53.561185,0</coordinates></Point></Placemark>
+<Placemark><name>FAM Engineering Ltd</name><Point><coordinates>-2.443978,53.594479,0</coordinates></Point></Placemark>
+<Placemark><name>FAM Engineering Ltd</name><Point><coordinates>-2.340278,53.508863,0</coordinates></Point></Placemark>
+<Placemark><name>FAM Engineering Ltd</name><Point><coordinates>-2.536395,53.521321,0</coordinates></Point></Placemark>
+<Placemark><name>FAM Engineering Ltd</name><Point><coordinates>-2.148783,53.611534,0</coordinates></Point></Placemark>
+<Placemark><name>First Roadside Assistance</name><Point><coordinates>-0.772505,51.625105,0</coordinates></Point></Placemark>
+<Placemark><name>Fourwinds Garage (Mitchell) Ltd</name><Point><coordinates>-5.006767,50.353478,0</coordinates></Point></Placemark>
+<Placemark><name>Fourwinds Garage (Mitchell) Ltd</name><Point><coordinates>-5.262694,50.227267,0</coordinates></Point></Placemark>
+<Placemark><name>Furness Cars &amp; Commercials</name><Point><coordinates>-3.187486,54.198076,0</coordinates></Point></Placemark>
+<Placemark><name>Fylingdales Service Station</name><Point><coordinates>-0.56754,54.393432,0</coordinates></Point></Placemark>
+<Placemark><name>G Bannerman (Tain) Ltd</name><Point><coordinates>-4.056505,57.814921,0</coordinates></Point></Placemark>
+<Placemark><name>Gallows Wood Service Station</name><Point><coordinates>-0.415221,53.581629,0</coordinates></Point></Placemark>
+<Placemark><name>Gallows Wood Service Station</name><Point><coordinates>-0.629828,53.580786,0</coordinates></Point></Placemark>
+<Placemark><name>Gallows Wood Service Station</name><Point><coordinates>-0.117927,53.575254,0</coordinates></Point></Placemark>
+<Placemark><name>Gavins Recovery</name><Point><coordinates>-6.036495,54.062446,0</coordinates></Point></Placemark>
+<Placemark><name>GEREC Ltd</name><Point><coordinates>-2.985777,51.164151,0</coordinates></Point></Placemark>
+<Placemark><name>Glendinning Bros</name><Point><coordinates>-1.848272,54.967407,0</coordinates></Point></Placemark>
+<Placemark><name>GM Recovery Ltd</name><Point><coordinates>-2.175167,53.467711,0</coordinates></Point></Placemark>
+<Placemark><name>GPG Montrose Ltd</name><Point><coordinates>-2.461593,56.732787,0</coordinates></Point></Placemark>
+<Placemark><name>Graham&apos;s Vehicle Repairs</name><Point><coordinates>-4.067051,52.436549,0</coordinates></Point></Placemark>
+<Placemark><name>Gwalia Recovery</name><Point><coordinates>-4.240303,53.130886,0</coordinates></Point></Placemark>
+<Placemark><name>H K Motors Ltd</name><Point><coordinates>-3.085772,53.0548,0</coordinates></Point></Placemark>
+<Placemark><name>Hardy&apos;s Recovery</name><Point><coordinates>-4.403393,52.889712,0</coordinates></Point></Placemark>
+<Placemark><name>Highfield Garage &amp; Recovery Ltd</name><Point><coordinates>-3.842963,50.762153,0</coordinates></Point></Placemark>
+<Placemark><name>Highfield Garage &amp; Recovery Ltd</name><Point><coordinates>-3.980193,50.741719,0</coordinates></Point></Placemark>
+<Placemark><name>Highfield Garage &amp; Recovery Ltd</name><Point><coordinates>-3.52276,50.703211,0</coordinates></Point></Placemark>
+<Placemark><name>Highfield Garage &amp; Recovery Ltd</name><Point><coordinates>-3.391676,50.855971,0</coordinates></Point></Placemark>
+<Placemark><name>Highway Recovery Ltd</name><Point><coordinates>-1.273809,53.703372,0</coordinates></Point></Placemark>
+<Placemark><name>Highway Recovery Ltd</name><Point><coordinates>-1.062268,53.382076,0</coordinates></Point></Placemark>
+<Placemark><name>Horne Park Garage</name><Point><coordinates>-4.116212,51.208449,0</coordinates></Point></Placemark>
+<Placemark><name>Horne Park Garage</name><Point><coordinates>-4.090356,51.074005,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.769546,53.350493,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.916915,53.250857,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.421243,53.089198,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.644054,53.786107,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.418309,53.588433,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.004159,52.834228,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-2.171244,53.597309,0</coordinates></Point></Placemark>
+<Placemark><name>Hough Green Garage</name><Point><coordinates>-3.788409,53.281647,0</coordinates></Point></Placemark>
+<Placemark><name>J&amp;J Campsie</name><Point><coordinates>-3.53144,55.620814,0</coordinates></Point></Placemark>
+<Placemark><name>J&amp;J Campsie</name><Point><coordinates>-3.201478,55.948965,0</coordinates></Point></Placemark>
+<Placemark><name>Jacksons Recovery</name><Point><coordinates>-1.894961,52.491351,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-2.175601,53.859195,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-3.019811,53.799067,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-2.834635,54.056768,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-2.934571,54.99445,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-1.906067,53.878364,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-1.507994,54.130928,0</coordinates></Point></Placemark>
+<Placemark><name>JD Macadam &amp; Sons (Rescue) Limited </name><Point><coordinates>-1.666329,54.443985,0</coordinates></Point></Placemark>
+<Placemark><name>Jim&apos;s Garage (Shetland) Limited</name><Point><coordinates>-1.164724,60.166974,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>-0.133094,51.383332,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>-0.314783,51.348605,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>-0.05716,51.643101,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>0.089028,51.585913,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>0.263918,51.133305,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>0.934831,51.31645,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>1.08415,51.276524,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>1.08415,51.276524,0</coordinates></Point></Placemark>
+<Placemark><name>Kavanagh Motors Ltd</name><Point><coordinates>1.181565,51.078537,0</coordinates></Point></Placemark>
+<Placemark><name>KD Bros Ltd</name><Point><coordinates>-1.532371,53.801371,0</coordinates></Point></Placemark>
+<Placemark><name>KD Bros Ltd</name><Point><coordinates>-1.568327,53.795554,0</coordinates></Point></Placemark>
+<Placemark><name>Keith Motor Company</name><Point><coordinates>-2.953306,57.550465,0</coordinates></Point></Placemark>
+<Placemark><name>Keltek Motors Ltd</name><Point><coordinates>-4.313296,50.518308,0</coordinates></Point></Placemark>
+<Placemark><name>Keltek Motors Ltd</name><Point><coordinates>-4.425995,50.513791,0</coordinates></Point></Placemark>
+<Placemark><name>Kerr &amp; Smith (Ayr) Ltd</name><Point><coordinates>-4.631171,55.470674,0</coordinates></Point></Placemark>
+<Placemark><name>Kerr &amp; Smith (Cumnock) Ltd</name><Point><coordinates>-4.270051,55.449937,0</coordinates></Point></Placemark>
+<Placemark><name>Kingsbridge Auto Repair &amp; Rescue</name><Point><coordinates>-3.713284,50.362835,0</coordinates></Point></Placemark>
+<Placemark><name>Kissane &amp; Jeffries</name><Point><coordinates>-2.033025,52.477926,0</coordinates></Point></Placemark>
+<Placemark><name>Ladyroyd Garage Ltd</name><Point><coordinates>-1.789614,53.799015,0</coordinates></Point></Placemark>
+<Placemark><name>Lanes Recovery Ltd</name><Point><coordinates>-2.940249,51.851781,0</coordinates></Point></Placemark>
+<Placemark><name>Lanes Recovery Ltd</name><Point><coordinates>-3.313264,52.514305,0</coordinates></Point></Placemark>
+<Placemark><name>LAR Traffic Services (Inside M25)</name><Point><coordinates>-0.076387,51.599901,0</coordinates></Point></Placemark>
+<Placemark><name>LAR Traffic Services (Inside M25)</name><Point><coordinates>0.167227,51.500654,0</coordinates></Point></Placemark>
+<Placemark><name>LAR Traffic Services (Outside M25)</name><Point><coordinates>0.519296,50.848748,0</coordinates></Point></Placemark>
+<Placemark><name>Lennox Auto Services Ltd</name><Point><coordinates>-6.700637,54.702801,0</coordinates></Point></Placemark>
+<Placemark><name>Liftondown Garage</name><Point><coordinates>-4.306894,50.645237,0</coordinates></Point></Placemark>
+<Placemark><name>Liftondown Garage</name><Point><coordinates>-4.145237,50.550371,0</coordinates></Point></Placemark>
+<Placemark><name>Lix Toll Garage</name><Point><coordinates>-4.358413,56.440864,0</coordinates></Point></Placemark>
+<Placemark><name>LJ Transporation Ltd</name><Point><coordinates>0.710129,51.676761,0</coordinates></Point></Placemark>
+<Placemark><name>LJ Transporation Ltd</name><Point><coordinates>1.005987,52.014274,0</coordinates></Point></Placemark>
+<Placemark><name>LJ Transporation Ltd</name><Point><coordinates>0.457029,51.583523,0</coordinates></Point></Placemark>
+<Placemark><name>Loch Shiel Garage 2010 Limited</name><Point><coordinates>-5.787669,56.741607,0</coordinates></Point></Placemark>
+<Placemark><name>Lochcarron Garage</name><Point><coordinates>-5.473257,57.414874,0</coordinates></Point></Placemark>
+<Placemark><name>M.B (Hants) Ltd t/a Forrest Rescue</name><Point><coordinates>-1.585557,50.724096,0</coordinates></Point></Placemark>
+<Placemark><name>Mackay&apos;s Garage Limited</name><Point><coordinates>-3.387535,58.591691,0</coordinates></Point></Placemark>
+<Placemark><name>Maclennan Autos</name><Point><coordinates>-6.595694,58.342363,0</coordinates></Point></Placemark>
+<Placemark><name>Manchetts Rescue &amp; Recovery</name><Point><coordinates>0.337695,52.295431,0</coordinates></Point></Placemark>
+<Placemark><name>Manchetts Rescue &amp; Recovery</name><Point><coordinates>0.337695,52.295431,0</coordinates></Point></Placemark>
+<Placemark><name>Messrs James McNaughton &amp; Sons</name><Point><coordinates>-3.782243,56.261894,0</coordinates></Point></Placemark>
+<Placemark><name>Metcalfes of Thirsk</name><Point><coordinates>-1.366429,54.270386,0</coordinates></Point></Placemark>
+<Placemark><name>Midhurst Engineering &amp; Motor Co</name><Point><coordinates>-0.740069,50.986528,0</coordinates></Point></Placemark>
+<Placemark><name>Millbrook Recovery</name><Point><coordinates>-3.996916,51.645347,0</coordinates></Point></Placemark>
+<Placemark><name>Millforge Limited</name><Point><coordinates>-4.939897,51.698267,0</coordinates></Point></Placemark>
+<Placemark><name>Moduron Maehtlu Motors Ltd</name><Point><coordinates>-4.300693,53.266342,0</coordinates></Point></Placemark>
+<Placemark><name>Morar Motors (Kyle)</name><Point><coordinates>-5.715921,57.280437,0</coordinates></Point></Placemark>
+<Placemark><name>Morar Motors (Mallaig)</name><Point><coordinates>-5.823209,56.972034,0</coordinates></Point></Placemark>
+<Placemark><name>Motor Move (UK) Ltd</name><Point><coordinates>-2.149569,53.410885,0</coordinates></Point></Placemark>
+<Placemark><name>Motormobile Recovery</name><Point><coordinates>-1.925829,52.650198,0</coordinates></Point></Placemark>
+<Placemark><name>Motorwise</name><Point><coordinates>-4.47373,54.95929,0</coordinates></Point></Placemark>
+<Placemark><name>Mount Pleasant Motoring Services</name><Point><coordinates>-1.636713,53.294779,0</coordinates></Point></Placemark>
+<Placemark><name>Mount Pleasant Motoring Services</name><Point><coordinates>-1.497046,53.412617,0</coordinates></Point></Placemark>
+<Placemark><name>National Rescue (Midlands) Ltd</name><Point><coordinates>-2.036994,52.51283,0</coordinates></Point></Placemark>
+<Placemark><name>National Rescue Group</name><Point><coordinates>-0.293287,51.371377,0</coordinates></Point></Placemark>
+<Placemark><name>New Road Garage (Llandovery) Ltd</name><Point><coordinates>-3.798455,51.997023,0</coordinates></Point></Placemark>
+<Placemark><name>Nottingham Breakdown</name><Point><coordinates>-1.068813,52.963022,0</coordinates></Point></Placemark>
+<Placemark><name>Parker Fry Recovery</name><Point><coordinates>-0.229061,52.561709,0</coordinates></Point></Placemark>
+<Placemark><name>Penllain Garage</name><Point><coordinates>-4.607928,51.95645,0</coordinates></Point></Placemark>
+<Placemark><name>Plymouth Car Recoveries</name><Point><coordinates>-4.045036,50.393609,0</coordinates></Point></Placemark>
+<Placemark><name>Postlebury Car &amp; Commercial Recovery</name><Point><coordinates>-2.324871,51.220911,0</coordinates></Point></Placemark>
+<Placemark><name>Potters Green Service Station</name><Point><coordinates>-1.474656,52.465878,0</coordinates></Point></Placemark>
+<Placemark><name>R K Horn</name><Point><coordinates>-4.932999,55.751797,0</coordinates></Point></Placemark>
+<Placemark><name>Randy&apos;s Vehicle Recovery Ltd</name><Point><coordinates>-2.79382,55.956381,0</coordinates></Point></Placemark>
+<Placemark><name>Randy&apos;s Vehicle Recovery Ltd</name><Point><coordinates>-3.142189,56.179552,0</coordinates></Point></Placemark>
+<Placemark><name>Ravenscroft Motor Company Ltd</name><Point><coordinates>-1.815968,50.843857,0</coordinates></Point></Placemark>
+<Placemark><name>Ravenscroft Motor Company Ltd</name><Point><coordinates>-1.378783,50.917833,0</coordinates></Point></Placemark>
+<Placemark><name>Ravenscroft Motor Company Ltd</name><Point><coordinates>-0.855807,51.295546,0</coordinates></Point></Placemark>
+<Placemark><name>Recovery North West</name><Point><coordinates>-2.719017,53.443707,0</coordinates></Point></Placemark>
+<Placemark><name>Recovery North West</name><Point><coordinates>-2.961584,53.431267,0</coordinates></Point></Placemark>
+<Placemark><name>Red House Service Station</name><Point><coordinates>-1.336938,53.193892,0</coordinates></Point></Placemark>
+<Placemark><name>Redhill Rescue Solutions</name><Point><coordinates>-1.948827,52.396668,0</coordinates></Point></Placemark>
+<Placemark><name>Redhill Rescue Solutions</name><Point><coordinates>-1.938358,52.305197,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-1.377717,53.103475,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-0.486504,53.297381,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-1.28864,52.98002,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-1.297919,53.114996,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-0.8841,53.226562,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-1.125247,52.587202,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-0.480509,51.922006,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-1.325531,53.504445,0</coordinates></Point></Placemark>
+<Placemark><name>Richford Motors Limited</name><Point><coordinates>-2.156728,53.00919,0</coordinates></Point></Placemark>
+<Placemark><name>Rivermead Recovery</name><Point><coordinates>-2.76507,50.901599,0</coordinates></Point></Placemark>
+<Placemark><name>Rivermead Recovery</name><Point><coordinates>-2.439362,50.713302,0</coordinates></Point></Placemark>
+<Placemark><name>Riverside Motors</name><Point><coordinates>-3.287742,50.750011,0</coordinates></Point></Placemark>
+<Placemark><name>Roberts &amp; Thomas</name><Point><coordinates>-3.506206,52.990786,0</coordinates></Point></Placemark>
+<Placemark><name>Rochfords Garages Ltd</name><Point><coordinates>-1.699412,54.773222,0</coordinates></Point></Placemark>
+<Placemark><name>Ron Perry A19 Test &amp; Tune</name><Point><coordinates>-1.303035,54.655376,0</coordinates></Point></Placemark>
+<Placemark><name>Ross&apos;s Garage</name><Point><coordinates>-4.075935,57.466982,0</coordinates></Point></Placemark>
+<Placemark><name>Ross&apos;s Garage</name><Point><coordinates>-3.912232,57.141004,0</coordinates></Point></Placemark>
+<Placemark><name>Roy Needham Cars Ltd t/a Roy&apos;s Autos</name><Point><coordinates>-1.500404,53.585597,0</coordinates></Point></Placemark>
+<Placemark><name>RRS Recovery Services</name><Point><coordinates>-0.973642,53.956824,0</coordinates></Point></Placemark>
+<Placemark><name>RRS Recovery Services</name><Point><coordinates>-0.886001,53.734676,0</coordinates></Point></Placemark>
+<Placemark><name>RRS Recovery Services</name><Point><coordinates>-0.323188,53.750131,0</coordinates></Point></Placemark>
+<Placemark><name>RRS Recovery Services</name><Point><coordinates>-1.012203,53.577458,0</coordinates></Point></Placemark>
+<Placemark><name>Sheriffmill Motor Co</name><Point><coordinates>-3.341745,57.648598,0</coordinates></Point></Placemark>
+<Placemark><name>Slades Garage Ltd</name><Point><coordinates>-2.972457,50.876404,0</coordinates></Point></Placemark>
+<Placemark><name>St Just Garage</name><Point><coordinates>-5.679815,50.123292,0</coordinates></Point></Placemark>
+<Placemark><name>St Michael&apos;s Garage</name><Point><coordinates>-2.008224,50.620163,0</coordinates></Point></Placemark>
+<Placemark><name>Stag Garage</name><Point><coordinates>-5.434351,56.038261,0</coordinates></Point></Placemark>
+<Placemark><name>Stag Lane Motors</name><Point><coordinates>-1.300546,50.722619,0</coordinates></Point></Placemark>
+<Placemark><name>Stewart&apos;s Garage (Dunoon)</name><Point><coordinates>-4.930589,55.946094,0</coordinates></Point></Placemark>
+<Placemark><name>Stoneywood Ltd</name><Point><coordinates>-1.915945,53.708388,0</coordinates></Point></Placemark>
+<Placemark><name>Stort Mill Garage Limited</name><Point><coordinates>0.117246,51.788359,0</coordinates></Point></Placemark>
+<Placemark><name>Tears Recovery</name><Point><coordinates>0.173326,52.773478,0</coordinates></Point></Placemark>
+<Placemark><name>Tech Trucks UK Ltd</name><Point><coordinates>-3.005406,52.137669,0</coordinates></Point></Placemark>
+<Placemark><name>TF Smiths UK Ltd</name><Point><coordinates>-1.744115,53.784228,0</coordinates></Point></Placemark>
+<Placemark><name>TF Smiths UK Ltd</name><Point><coordinates>-1.607089,53.822213,0</coordinates></Point></Placemark>
+<Placemark><name>TG Simpson (Ninewells Garage) Ltd</name><Point><coordinates>-3.034386,56.457546,0</coordinates></Point></Placemark>
+<Placemark><name>Thomas Motors</name><Point><coordinates>-3.362503,52.20469,0</coordinates></Point></Placemark>
+<Placemark><name>Tongue Garage Company Ltd</name><Point><coordinates>-4.417344,58.475978,0</coordinates></Point></Placemark>
+<Placemark><name>Tonkin Recovery Ltd</name><Point><coordinates>-4.711223,50.459758,0</coordinates></Point></Placemark>
+<Placemark><name>Tonkin Recovery Ltd</name><Point><coordinates>-4.793559,50.397397,0</coordinates></Point></Placemark>
+<Placemark><name>Tonkin Recovery Ltd</name><Point><coordinates>-5.229681,50.233048,0</coordinates></Point></Placemark>
+<Placemark><name>Unity Recovery Service Ltd</name><Point><coordinates>-1.095083,52.655731,0</coordinates></Point></Placemark>
+<Placemark><name>Victoria Garage</name><Point><coordinates>-3.855473,58.019964,0</coordinates></Point></Placemark>
+<Placemark><name>Victoria Recovery Ltd</name><Point><coordinates>-2.433787,51.544741,0</coordinates></Point></Placemark>
+<Placemark><name>W &amp; J Duncan</name><Point><coordinates>-5.05707,55.834481,0</coordinates></Point></Placemark>
+<Placemark><name>Walter Hogarth</name><Point><coordinates>-2.104401,55.869334,0</coordinates></Point></Placemark>
+<Placemark><name>West Coast Autos</name><Point><coordinates>-5.154909,57.89825,0</coordinates></Point></Placemark>
+<Placemark><name>West End Garage (R MacDonald)</name><Point><coordinates>-4.685313,57.142601,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-0.174595,50.971902,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-0.333353,51.062578,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-1.046153,51.069978,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-0.9782,51.455396,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-1.901304,51.544046,0</coordinates></Point></Placemark>
+<Placemark><name>Westbourne Motors</name><Point><coordinates>-2.535935,51.475533,0</coordinates></Point></Placemark>
+<Placemark><name>WW Autos Limited</name><Point><coordinates>-3.587035,54.538127,0</coordinates></Point></Placemark>
+<Placemark><name>Yorkshire Rescue Services</name><Point><coordinates>-1.825376,53.647117,0</coordinates></Point></Placemark>
+<Placemark><name>Yorkshire Rescue Services</name><Point><coordinates>-1.622911,53.743429,0</coordinates></Point></Placemark>
+<Placemark><name>AASP Recovery</name><Point><coordinates>-0.214421,52.578564,0</coordinates></Point></Placemark>
+<Placemark><name>BSC Recovery</name><Point><coordinates>-1.303341,53.367959,0</coordinates></Point></Placemark>
+<Placemark><name>DS &amp; Son Ltd</name><Point><coordinates>-2.295995,53.452893,0</coordinates></Point></Placemark>
+<Placemark><name>Greenmeadow Commercial Services</name><Point><coordinates>-1.767096,51.572332,0</coordinates></Point></Placemark>
+<Placemark><name>Greenmeadow Commercial Services</name><Point><coordinates>-1.317373,51.403245,0</coordinates></Point></Placemark>
+<Placemark><name>Isis Rescue Ltd</name><Point><coordinates>-1.196235,51.738847,0</coordinates></Point></Placemark>
+<Placemark><name>Isis Rescue Ltd</name><Point><coordinates>-1.285643,52.067584,0</coordinates></Point></Placemark>
+<Placemark><name>LNS Recovery</name><Point><coordinates>-3.449742,53.257254,0</coordinates></Point></Placemark>
+<Placemark><name>LNS Recovery</name><Point><coordinates>-2.672515,52.967978,0</coordinates></Point></Placemark>
+<Placemark><name>LNS Recovery</name><Point><coordinates>-3.302813,53.113016,0</coordinates></Point></Placemark>
+<Placemark><name>LNS Recovery</name><Point><coordinates>-3.250928,52.710655,0</coordinates></Point></Placemark>
+<Placemark><name>LNS Recovery</name><Point><coordinates>-3.089779,52.934997,0</coordinates></Point></Placemark>
+<Placemark><name>PJ Kerley Motor Engineers Ltd</name><Point><coordinates>1.26348,52.645532,0</coordinates></Point></Placemark>
+<Placemark><name>PJ Kerley Motor Engineers Ltd</name><Point><coordinates>0.906303,52.449909,0</coordinates></Point></Placemark>
+<Placemark><name>PJ Kerley Motor Engineers Ltd</name><Point><coordinates>1.720915,52.620154,0</coordinates></Point></Placemark>
+<Placemark><name>Shaws Recovery Ltd</name><Point><coordinates>-0.452749,51.832258,0</coordinates></Point></Placemark>
+<Placemark><name>SLM Rescue Services</name><Point><coordinates>-0.728132,51.934239,0</coordinates></Point></Placemark>
+</Document>
+</kml>
